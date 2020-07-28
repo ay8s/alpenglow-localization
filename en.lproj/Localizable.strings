@@ -24,10 +24,10 @@
 "locationVC.error.denied" = "Location permissions seem to be have been denied. You can enable location permissions and try again or select your location manually.";
 
 "notificationsVC.title" = "Notifications";
-"notificationsVC.description" = "Alpenglow can send you reminder notifications for Sunrise, Sunset and Golden Hours. Enable Notifications to be able to recieve these notifications.\n\nYou can adjust these notifications at any time.";
+"notificationsVC.description" = "Alpenglow can send you reminder notifications for Sunrise, Sunset and Golden Hours. Enable Notifications to be able to receive these notifications.\n\nYou can adjust these notifications at any time.";
 "notificationsVC.button" = "Enable Notifications";
 "notificationsVC.skip" = "Enable Later";
-"notificationsVC.error.message" = "Looks like Alpenglow doesn't have permission to send notifications. To recieve notifications for sunrise, sunset and golden hours we'll need permissions to be allowed in Settings.";
+"notificationsVC.error.message" = "Looks like Alpenglow doesn't have permission to send notifications. To receive notifications for sunrise, sunset and golden hours we'll need permissions to be allowed in Settings.";
 "notificationsVC.error.continue" = "Continue";
 
 // Notifications
@@ -158,7 +158,7 @@
 "learnMoreVC.text2" = "SunsetWX makes use of various atmospheric factors to calculate a prediction for quality each day. These include Cloud Height & Type, Humidity, Pressure Changes, Wind Direction & Speed, Atmospheric Particulates & Topography.";
 "learnMoreVC.text3" = "Everyone has their own idea of a great Sunset/Sunrise, SunsetWX defines a great sunrise/sunset by the \"wow\" factor it creates.";
 "learnMoreVC.text3Quality" = "Poor (0-25%): Little to no color, with precipitation or a thick cloud layer often blocking a direct view of the sun.\n\nFair (25-50%): Some color for a short time, with conditions ranging from mostly cloudy, or hazy, to clear, with little to no clouds at all levels.\n\nGood (50-75%): A fair amount of color, often multi-colored, lasting a considerable amount of time. Often caused by scattered clouds at multiple levels.\n\nGreat (75-100%): Extremely vibrant color lasting 30 minutes or more. Often caused by multiple arrangements of clouds at multiple levels, transitioning through multiple stages of vivid color.";
-"learnMoreVC.text4" = "Just as weather forecasts change frequenty, predictions from SunsetWX can change based on the latest data.";
+"learnMoreVC.text4" = "Just as weather forecasts change frequency, predictions from SunsetWX can change based on the latest data.";
 "learnMoreVC.close" = "Close";
 
 // Alpenglow Pro
