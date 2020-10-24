@@ -112,7 +112,7 @@
 "notifications.reminderOffset.120mins" = "2 heures avant";
 "notifications.forecast.title" = "Notifications de prévisions";
 "notifications.forecast.threshold" = "Seuil";
-"notifications.forecast.unlock" = "À déverouiller avec Alpenglow Pro";
+"notifications.forecast.unlock" = "À déverouiller Notifications\nde prévisions avec Alpenglow Pro";
 
 // Settings
 "settings.navBar.title" = "Paramètres";
@@ -124,6 +124,7 @@
 "settings.appearance.title" = "Apparence";
 "settings.appearance.color" = "Personnaliser les couleurs de l'application";
 "settings.appearance.icon" = "Changer l'icône de l'application";
+"settings.appearance.widgets" = "Widgets écran d'accueil";
 "settings.config.title" = "Configuration";
 "settings.config.deviceTimezone" = "Utiliser le fuseau horaire de l'appareil";
 "settings.social.title" = "Réseaux sociaux";
@@ -131,6 +132,7 @@
 "settings.social.instagram" = "Suivre Alpenglow sur Instagram";
 "settings.social.twitter" = "Suivre Alpenglow sur Twitter";
 "settings.social.facebook" = "Suivre Alpenglow sur Facebook";
+"settings.social.twitterPersonal" = "Suivre @ay8s sur Twitter";
 "settings.translate.title" = "Traduire";
 "settings.translate.help" = "Aidez-moi à traduire Alpenglow";
 "settings.feedback.title" = "Aidez-moi à améliorer Alpenglow";
@@ -138,6 +140,8 @@
 "settings.feedbackAlert.title" = "Avis";
 "settings.feedbackAlert.description" = "Envoyez-moi un e-mail à feedback@alpenglowapp.com pour rendre Alpenglow encore meilleur.";
 "settings.privacyPolicy" = "Politique de confidentialité";
+"settings.whatsNew" = "Quoi de neuf";
+"settings.merch" = "Alpenglow Merch";
 
 // App Color
 "customColor.navBar.title" = "Couleur principale de l'application";

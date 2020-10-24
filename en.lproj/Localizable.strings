@@ -86,7 +86,7 @@
 "report.navBar.title" = "Field Report";
 "report.navBar.cancel" = "Cancel";
 "report.navBar.submit" = "Submit";
-"report.description" = "You can help improve Alpenglow by submitting a field report. These will then be used to make forecasts more accurate over time.\n\nWhen you submit a field report we'll store the forecast, your score and your aproximate location.";
+"report.description" = "You can help improve Alpenglow by submitting a field report. These will then be used to make forecasts more accurate over time.\n\nWhen you submit a field report we'll store the forecast, your score and your approximate location.";
 "report.forecastedScore" = "Forecasted Score";
 "report.actualScore" = "Actual Score";
 "report.changePhoto" = "Change Photo";
@@ -112,7 +112,7 @@
 "notifications.reminderOffset.120mins" = "2 Hours before";
 "notifications.forecast.title" = "Forecast Notifications";
 "notifications.forecast.threshold" = "Threshold";
-"notifications.forecast.unlock" = "Unlock with Alpenglow Pro";
+"notifications.forecast.unlock" = "Unlock Forecast Notifications\nwith Alpenglow Pro";
 
 // Settings
 "settings.navBar.title" = "Settings";
@@ -124,6 +124,7 @@
 "settings.appearance.title" = "Appearance";
 "settings.appearance.color" = "Customize App Colors";
 "settings.appearance.icon" = "Change App Icon";
+"settings.appearance.widgets" = "Home Screen Widgets";
 "settings.config.title" = "Configuration";
 "settings.config.deviceTimezone" = "Use Device Timezone";
 "settings.social.title" = "Social";
@@ -131,6 +132,7 @@
 "settings.social.instagram" = "Follow Alpenglow on Instagram";
 "settings.social.twitter" = "Follow Alpenglow on Twitter";
 "settings.social.facebook" = "Follow Alpenglow on Facebook";
+"settings.social.twitterPersonal" = "Follow @ay8s on Twitter";
 "settings.translate.title" = "Translate";
 "settings.translate.help" = "Help Translate Alpenglow";
 "settings.feedback.title" = "Help Make Alpenglow Better";
@@ -138,6 +140,8 @@
 "settings.feedbackAlert.title" = "Feedback";
 "settings.feedbackAlert.description" = "Drop me an email to feedback@alpenglowapp.com and lets make Alpenglow even better.";
 "settings.privacyPolicy" = "Privacy Policy";
+"settings.whatsNew" = "What's New";
+"settings.merch" = "Alpenglow Merch";
 
 // App Color
 "customColor.navBar.title" = "Primary App Color";
