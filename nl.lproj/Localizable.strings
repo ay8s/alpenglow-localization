@@ -1,0 +1,228 @@
+/*
+  Localizabe.strings
+  Alpenglow
+
+  Created by Andrew Yates on 2/13/19.
+  Copyright © 2019 Andrew Yates. All rights reserved.
+*/
+
+// Common
+"Whoops" = "Oeps";
+"Cancel" = "Annuleren";
+"Done" = "Klaar";
+"Close" = "Sluiten";
+"Got it!" = "Begrepen!";
+"Fetching" = "Ophalen";
+"Creating" = "Maken";
+
+// Onboarding
+"onboarding.noun" = "zelfstandig naamwoord";
+"onboarding.definition1" = "1. Het roze licht van de ondergaande of opkomende zon gezien op hoge bergen.";
+"onboarding.definition2" = "2. Een app die je de tijden van zonsopgang en zonsondergang laat zien naast kwaliteitsvoorspellingen.";
+"onboarding.getStarted" = "Beginnen";
+
+"onboarding.location.title" = "Locatie";
+"onboarding.location.description" = "Je locatie wordt alleen op uw apparaat opgeslagen.\n\nJe kunt ook handmatig een locatie selecteren om door tijden en voorspellingen voor andere locaties te bladeren.";
+"onboarding.location.allow" = "Sta locatierechten toe";
+"onboarding.location.skip" = "Selecteer locatie later handmatig";
+
+"onboarding.notifications.title" = "Notificaties";
+"onboarding.notifications.description" = "Ontvang herinneringen voor zonsopgang, zonsondergang en gouden uren. Schakel meldigen in om deze te herinneringen te kunnen ontvangen.\n\nJe kunt deze meldingen op elk moment aanpassen.";
+"onboarding.notifications.allow" = "Meldingen toestaan";
+"onboarding.notifications.skip" = "Later toestaan";
+
+"onboarding.error.location." = "Kan je locatie niet bepalen.";
+"onboarding.error.notifications" = "Het lijkt erop dat de machtigingen voor meldingen zijn geweigerd. Verleen machtigingen binnen Instellingen of ga door zonder meldingen.";
+
+// Tabs
+"tabs.times" = "Tijden";
+"tabs.notifications" = "Notificaties";
+"tabs.settings" = "Instellingen";
+
+// Times View
+"times.location.fetching" = "Ophalen";
+"times.location.change" = "Wijzigen";
+"times.location.changeLocation" = "Wijzig locatie";
+"times.location.current" = "Huidige Locatie";
+"times.location.fetchingLocation" = "Locatie ophalen";
+"times.date.previous" = "Vorige dag";
+"times.date.next" = "Volgende dag";
+"times.date.today" = "Vandaag";
+"times.date.tomorrow" = "Morgen";
+"times.date.yesterday" = "Gisteren";
+"times.date.datePicker" = "Bekijk tijden voor...";
+"times.date.datePicker.today" = "Terug naar vandaag";
+"times.locationAlert.title" = "Wijzig lcoatie";
+"times.locationAlert.description" = "Wil je een nieuwe locatie selecteren of je huidige locatie gebruiken?";
+"times.locationAlert.current" = "Gebruik huidige locatie";
+"times.locationAlert.pick" = "Locatie selecteren";
+"times.noLocation.title" = "Locatie niet opgehaald";
+"times.noLocation.settings" = "Open Instellingen om machtigingen aan te zetten";
+"times.noLocation.enable" = "Locatie machtigingen toestaan";
+"times.noLocation.select" = "Selecteer een handmatige locatie";
+
+// Predications
+"prediction.report.title" = "Hoe ziet het er uit?";
+"prediction.report.button" = "Rapport indienen";
+"prediction.poor" = "Slecht";
+"prediction.fair" = "Matig";
+"prediction.good" = "Goed";
+"prediction.great" = "Geweldig";
+"prediction.error" = "Kon voorspelling niet ophalen";
+"prediction.share" = "Deel voorspelling";
+"prediction.shareString" = "De voorspelling voor %@ is %@ (%ld%%) in %@ om %@.";
+"prediction.shareVia" = "via";
+"events.blueHour" = "Blauwe Uur";
+"events.goldenHour" = "Gouden Uur";
+"events.sunrise" = "Zonsopkomst";
+"events.daytime" = "Overdag";
+"events.sunset" = "Zonsondergang";
+
+// Location
+"location.navBar.title" = "Zoeken";
+"location.placeholder" = "Zoeken naar locatie";
+
+// Field Report
+"report.navBar.title" = "Veldrapport";
+"report.navBar.cancel" = "Annuleren";
+"report.navBar.submit" = "Versturen";
+"report.description" = "Je kan Alpenglow helpen verbeteren door een veldrapport in te sturen. Deze zal worden gebruikt om voorspelling beter te maken.\n\nAls je een veldrapport instuurt slaan we de voorspelling, je score en je geschatte locatie op.";
+"report.forecastedScore" = "Voorspelde score";
+"report.actualScore" = "Echte score";
+"report.changePhoto" = "Wijzig foto";
+"report.selectPhoto" = "Selecteer foto";
+"report.allowShare" = "Sta Alpenglow toe om de foto te delen";
+"report.instagramUsername" = "Instagram gebruikersnaam";
+"report.photo" = "Voeg een foto toe aan je veldrapport.";
+
+// Notifications
+"notifications.navBar.title" = "Meldingen";
+"notifications.denied" = "Meldingen zijn uitgeschakeld";
+"notifications.enable" = "Meldingen toestaan";
+"notifications.reminders.title" = "Herinneringen";
+"notifications.reminders.morningGoldenHour" = "Gouden Uur (Ochtend)";
+"notifications.reminders.sunrise" = "Zonsopkomst";
+"notifications.reminders.eveningGoldenHour" = "Gouden Uur (Avond)";
+"notifications.reminders.sunset" = "Zonsondergang";
+"notifications.reminderOffset.title" = "Melding";
+"notifications.reminderOffset.0mins" = "Bij aanvang";
+"notifications.reminderOffset.15mins" = "15 minuten ervoor";
+"notifications.reminderOffset.30mins" = "30 minuten ervoor";
+"notifications.reminderOffset.60mins" = "1 uur ervoor";
+"notifications.reminderOffset.120mins" = "2 uur ervoor";
+"notifications.forecast.title" = "Voorspelling meldingen";
+"notifications.forecast.threshold" = "Drempel";
+"notifications.forecast.unlock" = "Ontgrendel voorspellingsmeldingen\nmet Alpenglow Pro";
+
+// Settings
+"settings.navBar.title" = "Instellingen";
+"settings.support.title" = "Ondersteun Alpenglow";
+"settings.support.plus" = "Alpenglow Plus";
+"settings.support.pro" = "Alpenglow Pro";
+"settings.support.tip" = "Verstuur een extra donatie";
+"settings.support.rate" = "Beoordeel Alpenglow in de App Store";
+"settings.appearance.title" = "Uiterlijk";
+"settings.appearance.color" = "App-kleuren aanpassen";
+"settings.appearance.icon" = "Wijzig App-icoon";
+"settings.appearance.widgets" = "Beginscherm widgets";
+"settings.config.title" = "Configuratie";
+"settings.config.deviceTimezone" = "Gebruik apparaat tijdzone";
+"settings.social.title" = "Social";
+"settings.social.reddit" = "Alpenglow Reddit Community";
+"settings.social.instagram" = "Volg Alpenglow op Instagram";
+"settings.social.twitter" = "Volg Alpenglow op Twitter";
+"settings.social.facebook" = "Volg Alpenglow op Facebook";
+"settings.social.twitterPersonal" = "Volg @ay8s op Twitter";
+"settings.translate.title" = "Vertaal";
+"settings.translate.help" = "Help Alpenglow vertalen";
+"settings.feedback.title" = "Help om Alpenglow beter te maken";
+"settings.feedback.send" = "Verstuur feedback";
+"settings.feedbackAlert.title" = "Feedback";
+"settings.feedbackAlert.description" = "Stuur me een e-mail op feedback@alpenglowapp.com en laten we Alpenglow nog beter maken.";
+"settings.privacyPolicy" = "Privacybeleid";
+"settings.whatsNew" = "Wat is er nieuw";
+"settings.merch" = "Alpenglow Merchandise";
+
+// App Color
+"customColor.navBar.title" = "Primaire App kleur";
+"customColor.default" = "Standaard";
+"customColor.classic" = "Klassiek";
+"customColor.daytime" = "Overdag";
+"customColor.silhouette" = "Silhouet";
+"customColor.dawn" = "Dageraad";
+
+// App Icons
+"appIcon.navBar.title" = "Wijzig App icoon";
+"appIcon.default" = "Standaard";
+"appIcon.classic" = "Klassiek";
+"appIcon.daytime" = "Overdag";
+"appIcon.silhouette" = "Silhouet";
+"appIcon.dawn" = "Dageraad";
+
+// Plus
+"plus.navBar.title" = "Ontgrendel Alpenglow Plus";
+"plus.description" = "Alpenglow Plus ontgrendelt extra functies. Laat gewoon een fooi achter en deze wordt voor u ontgrendeld als dank voor uw steun.\n\n Je kan zelfs nog meer functies ontgrendelen met Alpenglow Pro, inclusief voorspellingsmeldingen.";
+"plus.future.title" = "Kijk verder in de toekomst";
+"plus.future.description" = "Met Alpenglow Plus kan je tot 4 dagen in de toekomst zien (tegenover vandaag & morgen).";
+"plus.accuracy.title" = "Verhoogde nauwkeurigheid";
+"plus.accuracy.description" = "Voorspellingen worden opgehaald met behulp van een coördinaat die dichter bij uw exacte locatie ligt.";
+"plus.elevation.title" = "Locatie hoogte";
+"plus.elevation.description" = "De hoogte van de locatie wordt opgehaald en gebruikt om nauwkeurigere tijden voor zonsopgang, zonsondergang en gouden uur te geven.";
+"plus.customization.title" = "Aanpassingen";
+"plus.customization.description" = "Pas het kleurenschema van de app aan en maak een keuze uit verschillende versies van het app-icoon.";
+"plus.support.title" = "Ondersteun een ontwikkelaar";
+"plus.support.description" = "Alpenglow is een passieproject van een enkele ontwikkelaar die graag code schrijft en geweldige zonsondergangen bekijkt. Door uw steun kan ik Alpenglow niet alleen draaiende houden, maar ook blijven verbeteren.";
+"plus.unlocked" = "Je hebt Alpenglow Plus ontgrendeld";
+"plus.pro" = "Bekijk Alpenglow Pro";
+
+// Pro
+"pro.navBar.title" = "Ontgrendel Alpenglow Pro";
+"pro.legacyDescription" = "Je bent geweldig! Je hebt Alpenglow Pro al ontgrendeld toen je eerder een fooi gaf, je hebt alle onderstaande functies.\n\nAls je extra geweldig wilt zijn en Alpenglow verder wilt steunen, kun je ervoor kiezen om je te abonneren op een nieuw Alpenglow Pro-abonnement of levenslange betaling.";
+"pro.description" = "Alpenglow Pro ontgrendelt alles in Alpenglow Plus, samen met enkele extra functies die doorlopende serverkosten en extra SunsetWX-gebruik met zich meebrengen.";
+"pro.forecastNotifications.title" = "Voorspellingsmeldingen *";
+"pro.forecastNotifications.description" = "We hebben allemaal weleens een geweldige zonsopgang of zonsondergang gemist. Ontvang meldingen wanneer de weersvoorspelling voor uw locatie een door jou ingestelde drempel overschrijdt.";
+"pro.forecastWidgets.title" = "Voorspelling widgets";
+"pro.forecastWidgets.description" = "Ontgrendel voorspelling widgets voor je beginscherm. Met de mogelijkheid voor het weergeven van widgets voor meerdere locaties.";
+"pro.weather.title" = "Weersomstandigheden";
+"pro.weather.description" = "Bekijk weersomstandigheden samen met zonsopkomst en zonsondergang voorspellingen. Gebruik deze extra details om kwaliteitsvoorspellingen te valideren.";
+"pro.accuracy.title" = "Meer nauwkeurigheid";
+"pro.accuracy.description" = "Alpenglow gebruikt een geschatte locatie om voorspellingen op te halen. Met Alpenglow Pro gebruikt de app je exacte locatie om voorspellingen op te halen.";
+"pro.plusFeatures" = "Evenals deze Alpenglow Plus-functies...";
+"pro.forecastNotifications.disclaimer1" = "* Alpenglow slaat uw locatie nooit op een server op. Alle meldingen zijn dus gepland op jou apparaat.";
+"pro.forecastNotifications.disclaimer2" = "* In sommige gevallen start iOS Alpenglow mogelijk niet op op de achtergrond, zodat de app voorspellingsmeldingen kan plannen. Een lage batterijspanning, een energiebesparende modus enz. kunnen allemaal van invloed zijn op het feit of iOS Alpenglow toestaat de voorspelling op te halen.";
+"pro.blurb" = "De betaling wordt bij de bevestiging van de aankoop in rekening gebracht op uw Apple ID-account. Het abonnement wordt automatisch verlengd, tenzij het ten minste 24 uur voor het einde van de huidige periode wordt opgezegd. Je account wordt binnen 24 uur voorafgaand aan het einde van de huidige periode in rekening gebracht voor verlenging. Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinstellingen in de App Store te gaan. \n\nJe kunt je abonnementen beheren en annuleren in je App Store-accountinstellingen na aankoop.";
+
+// Tip
+"tipJar.navBar.title" = "Fooienpot";
+"tipJar.description" = "Bedankt dat je Alpenglow al steunt.\n\nAls je echt van de app geniet en je ondersteuning wilt uitbreiden, kun je met eventuele aanvullende fooien de kosten en de verdere ontwikkeling dekken.";
+
+// IAPS
+"iap.sweet" = "Kleine fooi";
+"iap.snack" = "Middelgrote fooi";
+"iap.coffee" = "Grote fooi";
+"iap.lunch" = "Grotere fooi";
+"iap.dinner" = "Zeer grote fooi";
+"iap.errorRetrieving" = "Kan in-app-aankopen niet ophalen";
+"iap.purchasing" = "Aanschaffen";
+"iap.subscribe" = "Abonneren op";
+"iap.restore" = "Aankopen herstellen";
+"iap.restoring" = "Herstellen";
+"iap.terms" = "Gebruiksvoorwaarden";
+
+// Push Notifications
+"reminders.goldenHour.starting" = "Gouden uur start nu...";
+"reminders.goldenHour.beginning" = "Gouden uur begint nu...";
+"reminders.goldenHour.relative" = "Gouden uur is %@ om %@.";
+"reminders.sunrise.rising" = "De zon komt nu op. 🌅";
+"reminders.sunrise.relative" = "Zonsopkomst is %@ om %@. 🌅";
+"reminders.sunset.setting" = "De zon gaat nu onder. 🌇";
+"reminders.sunset.relative" = "Zonsondergang is %@ om %@. 🌇";
+
+// Forecast Notifications
+"forecastNotification.text" = "De voorspelling voor %@ is %@ (%@%) in %@.";
+
+// Shares
+"share.fetching" = "Delen ophalen";
+"share.fetchFailed" = "Kan gedeelde voorspelling niet ophalen";
+"share.eventOccurred" = "Deze %@ heeft al plaatsgevonden.";
+"share.checkYours" = "Bekijk je voorspelling voor vandaag";
