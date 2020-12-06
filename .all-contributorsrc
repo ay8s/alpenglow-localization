@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "cbdt",
+      "name": "Clément Baudet",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10958405?v=4",
+      "profile": "https://github.com/cbdt",
+      "contributions": [
+        "translation"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "alpenglow-localization",
+  "projectOwner": "ay8s",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

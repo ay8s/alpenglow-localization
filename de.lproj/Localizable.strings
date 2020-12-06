@@ -1,0 +1,228 @@
+/*
+ Localizabe.strings
+ Alpenglow
+ 
+ Created by Andrew Yates on 2/13/19.
+ Copyright © 2019 Andrew Yates. All rights reserved.
+ */
+
+// Common
+"Whoops" = "Hoppla!";
+"Cancel" = "Abbrechen";
+"Done" = "Fertig";
+"Close" = "Schließen";
+"Got it!" = "Alles klar!";
+"Fetching" = "Wird abgerufen";
+"Creating" = "Wird erstellt";
+
+// Onboarding
+"onboarding.noun" = "Substantiv";
+"onboarding.definition1" = "1. das rosige Licht der untergehenden oder aufgehenden Sonne auf hohen Bergen.";
+"onboarding.definition2" = "2. Eine App, die Ihnen neben Qualitätsvorhersagen auch Sonnenauf- und -untergangszeiten anzeigt.";
+"onboarding.getStarted" = "Jetzt loslegen";
+
+"onboarding.location.title" = "Standort";
+"onboarding.location.description" = "Ihr Standort wird immer nur auf Ihrem Gerät gespeichert.\n\nSie können einen Standort auch manuell auswählen, um Zeiten und Prognosen nach anderen Standorten zu durchsuchen.";
+"onboarding.location.allow" = "Standortberechtigungen zulassen";
+"onboarding.location.skip" = "Wählen Sie Ihren Standort später manuell";
+
+"onboarding.notifications.title" = "Benachrichtigungen";
+"onboarding.notifications.description" = "Erhalten Sie Erinnerungen für Sonnenaufgang, Sonnenuntergang und goldene Stunden. Aktivieren Sie  Benachrichtigungen , um diese Benachrichtigungen zu erhalten.\n\nSie können diese Benachrichtigungen jederzeit anpassen.";
+"onboarding.notifications.allow" = "Benachrichtigungen aktivieren";
+"onboarding.notifications.skip" = "Später aktivieren";
+
+"onboarding.error.location." = "Ihr Standort konnte nicht ermittelt werden.";
+"onboarding.error.notifications" = "Anscheinend wurden die Benachrichtigungsberechtigungen verweigert. Erteilen Sie Berechtigungen in den Einstellungen oder fahren Sie ohne Benachrichtigungen fort.";
+
+// Tabs
+"tabs.times" = "Zeiten";
+"tabs.notifications" = "Benachrichtigungen";
+"tabs.settings" = "Einstellungen";
+
+// Times View
+"times.location.fetching" = "Wird abgerufen";
+"times.location.change" = "Ändern";
+"times.location.changeLocation" = "Standort ändern";
+"times.location.current" = "Aktueller Standort";
+"times.location.fetchingLocation" = "Standort abrufen";
+"times.date.previous" = "Vorheriges Datum";
+"times.date.next" = "Nächstes Datum";
+"times.date.today" = "Heute";
+"times.date.tomorrow" = "Morgen";
+"times.date.yesterday" = "Gestern";
+"times.date.datePicker" = "Zeiten anzeigen für & ";
+"times.date.datePicker.today" = "Zurück zu heute";
+"times.locationAlert.title" = "Standort ändern";
+"times.locationAlert.description" = "Möchten Sie einen neuen Standort auswählen oder Ihren aktuellen Standort verwenden?";
+"times.locationAlert.current" = "Aktuellen Standort verwenden";
+"times.locationAlert.pick" = "Wählen Sie einen Standort";
+"times.noLocation.title" = "Standort nicht abgerufen";
+"times.noLocation.settings" = "Öffnen Sie die Einstellungen, um die Berechtigungen zu aktivieren";
+"times.noLocation.enable" = "Standortberechtigungen aktivieren";
+"times.noLocation.select" = "Wählen Sie einen manuellen Standort";
+
+// Predications
+"prediction.report.title" = "Wie sieht es aus?";
+"prediction.report.button" = "Bericht übermitteln";
+"prediction.poor" = "Schwach";
+"prediction.fair" = "Ausreichend";
+"prediction.good" = "Gut";
+"prediction.great" = "Großartig";
+"prediction.error" = "Prognose konnte nicht abgerufen werden";
+"prediction.share" = "Prognose teilen";
+"prediction.shareString" = "Die Prognose für den %@ ist %@ (%ld%%) in %@ um %@.";
+"prediction.shareVia" = "über";
+"events.blueHour" = "Blaue Stunde";
+"events.goldenHour" = "Goldene Stunde";
+"events.sunrise" = "Sonnenaufgang";
+"events.daytime" = "Tageszeit";
+"events.sunset" = "Sonnenuntergang";
+
+// Location
+"location.navBar.title" = "Suche";
+"location.placeholder" = "Standort suchen";
+
+// Field Report
+"report.navBar.title" = "Feldbericht";
+"report.navBar.cancel" = "Abbrechen";
+"report.navBar.submit" = "Absenden";
+"report.description" = "Sie können Alpenglow verbessern, indem Sie einen Erfahrungsbericht einreichen. Diese werden dann verwendet, um Prognosen im Laufe der Zeit genauer zu machen.\n\nWenn Sie einen Erfahrungsbericht einreichen, speichern wir die Prognose, Ihre Punktzahl und Ihren ungefähren Standort.";
+"report.forecastedScore" = "Prognostizierte Punktzahl";
+"report.actualScore" = "Tatsächliche Punktzahl";
+"report.changePhoto" = "Foto ändern";
+"report.selectPhoto" = "Ein Foto auswählen";
+"report.allowShare" = "Alpenglow erlauben, das Foto zu teilen";
+"report.instagramUsername" = "Instagram-Benutzername";
+"report.photo" = "Bitte fügen Sie Ihrem Erfahrungsbericht ein Foto an.";
+
+// Notifications
+"notifications.navBar.title" = "Benachrichtigungen";
+"notifications.denied" = "Benachrichtigungen sind deaktiviert";
+"notifications.enable" = "Push-Benachrichtigungen aktivieren";
+"notifications.reminders.title" = "Erinnerungen";
+"notifications.reminders.morningGoldenHour" = "Goldene Stunde (Morgen)";
+"notifications.reminders.sunrise" = "Sonnenaufgang";
+"notifications.reminders.eveningGoldenHour" = "Goldene Stunde (Abend)";
+"notifications.reminders.sunset" = "Sonnenuntergang";
+"notifications.reminderOffset.title" = "Erinnerungsverschiebung";
+"notifications.reminderOffset.0mins" = "Zur Veranstaltungszeit";
+"notifications.reminderOffset.15mins" = "15 Minuten vorher";
+"notifications.reminderOffset.30mins" = "30 Minuten vorher";
+"notifications.reminderOffset.60mins" = "1 Stunde vorher";
+"notifications.reminderOffset.120mins" = "2 Stunden vorher";
+"notifications.forecast.title" = "Prognosebenachrichtigungen";
+"notifications.forecast.threshold" = "Schwellenwert";
+"notifications.forecast.unlock" = "Mit Alpenglow Pro entsperren\nPrognosebenachrichtigungen";
+
+// Settings
+"settings.navBar.title" = "Einstellungen";
+"settings.support.title" = "Alpenglow unterstützen";
+"settings.support.plus" = "Alpenglow Plus";
+"settings.support.pro" = "Alpenglow Pro";
+"settings.support.tip" = "Senden Sie ein zusätzliches Trinkgeld";
+"settings.support.rate" = "Bewerten im Alpenglow im App Store";
+"settings.appearance.title" = "Darstellung";
+"settings.appearance.color" = "App-Farben anpassen";
+"settings.appearance.icon" = "App-Symbol ändern";
+"settings.appearance.widgets" = "Homescreen Widgets";
+"settings.config.title" = "Aufbau";
+"settings.config.deviceTimezone" = "Verwenden Sie die Gerätezeitzone";
+"settings.social.title" = "Soziale Medien";
+"settings.social.reddit" = "Reddit-Community von Alpenglow";
+"settings.social.instagram" = "Alpenglow auf Instagram folgen";
+"settings.social.twitter" = "Alpenglow auf Twitter folgen";
+"settings.social.facebook" = "Alpenglow auf Facebook folgen";
+"settings.social.twitterPersonal" = "@ay8s auf Twitter folgen";
+"settings.translate.title" = "Übersetzen";
+"settings.translate.help" = "Beim Übersetzen von Alpenglow helfen";
+"settings.feedback.title" = "Dabei helfen, Alpenglow zu verbessern";
+"settings.feedback.send" = "Feedback senden";
+"settings.feedbackAlert.title" = "Feedback";
+"settings.feedbackAlert.description" = "Schreiben Sie mir eine E-Mail an feedback@alpenglowapp.com und lassen Sie uns Alpenglow noch besser machen.";
+"settings.privacyPolicy" = "Datenschutzrichtlinie";
+"settings.whatsNew" = "Was gibt's Neues";
+"settings.merch" = "Alpenglow Merch";
+
+// App Color
+"customColor.navBar.title" = "Primäre App-Farbe";
+"customColor.default" = "Standard";
+"customColor.classic" = "Klassisch";
+"customColor.daytime" = "Tageszeit";
+"customColor.silhouette" = "Silhouette";
+"customColor.dawn" = "Dämmerung";
+
+// App Icons
+"appIcon.navBar.title" = "App-Symbol ändern";
+"appIcon.default" = "Standard";
+"appIcon.classic" = "Klassisch";
+"appIcon.daytime" = "Tageszeit";
+"appIcon.silhouette" = "Silhouette";
+"appIcon.dawn" = "Dämmerung";
+
+// Plus
+"plus.navBar.title" = "Alpenglow Plus freischalten";
+"plus.description" = "Alpenglow Plus schaltet zusätzliche Funktionen frei. Hinterlassen Sie einfach ein Trinkgeld und es wird für Sie als Dankeschön für Ihre Unterstützung freigeschaltet.\n\n Mit Alpenglow Pro können Sie noch mehr Funktionen freischalten, einschließlich Prognosebenachrichtigungen.";
+"plus.future.title" = "Weiter in die Zukunft sehen";
+"plus.future.description" = "Mit Alpenglow Plus können Sie bis zu 4 Tage in die Zukunft sehen (im Vergleich zu heute und morgen).";
+"plus.accuracy.title" = "Höhere Genauigkeit";
+"plus.accuracy.description" = "Prognosen werden mit einer Koordinate abgerufen, die näher an Ihrem genauen Standort liegt.";
+"plus.elevation.title" = "Standorthöhe";
+"plus.elevation.description" = "Die Standorthöhe wird abgerufen und verwendet, um genauere Zeiten für Sonnenaufgang, Sonnenuntergang und die goldene Stunde bereitzustellen.";
+"plus.customization.title" = "Individuelle Anpassung";
+"plus.customization.description" = "Passen Sie das Farbschema der App an und wählen Sie aus verschiedenen Versionen des App-Symbols.";
+"plus.support.title" = "Unterstützen Sie einen Indie-Entwickler";
+"plus.support.description" = "Alpenglow ist ein Leidenschaftsprojekt eines einzelnen Entwicklers, der es liebt, Code zu schreiben und atemberaubende Sonnenuntergänge zu beobachten. Ihre Unterstützung ermöglicht es mir, Alpenglow nicht nur am Laufen zu halten, sondern es auch weiter zu verbessern.";
+"plus.unlocked" = "Sie haben Alpenglow Plus freigeschaltet";
+"plus.pro" = "Alpenglow Pro anzeigen";
+
+// Pro
+"pro.navBar.title" = "Alpenglow Pro freischalten";
+"pro.legacyDescription" = "Sie sind großartig! Sie haben Alpenglow Pro bereits freigeschaltet, als Sie zuvor ein Trinkgeld gegeben haben. Sie verfügen über alle unten aufgeführten Funktionen.\n\nWenn Sie besonders großartig sein und Alpenglow weiter unterstützen möchten, können Sie ein neues Alpenglow-Pro-Abonnement abschließen oder eine lebenslange Zahlung abonnieren.";
+"pro.description" = "Alpenglow Pro schaltet alles in Alpenglow Plus frei, zusammen mit einigen zusätzlichen Funktionen, die laufende Serverkosten und zusätzliche SunsetWX-Nutzung verursachen.";
+"pro.forecastNotifications.title" = "Prognosebenachrichtigungen*";
+"pro.forecastNotifications.description" = "Wir haben alle einen erstaunlichen Sonnenaufgang oder Sonnenuntergang verpasst. Erhalten Sie Benachrichtigungen, wenn die Prognose für Ihren Standort über einem von Ihnen festgelegten Schwellenwert liegt.";
+"pro.forecastWidgets.title" = "Prognose-Widgets";
+"pro.forecastWidgets.description" = "Prognose-Widgets für Ihren Startbildschirm freischalten. Mit der Möglichkeit, Widgets für mehrere Standorte anzuzeigen.";
+"pro.weather.title" = "Wetterbedingungen";
+"pro.weather.description" = "Zeigen Sie die Wetterbedingungen zusammen mit Sonnenaufgang- und Sonnenuntergangsprognosen an. Verwenden Sie diese zusätzlichen Details, um Qualitätsprognosen zu validieren.";
+"pro.accuracy.title" = "Mehr Genauigkeit";
+"pro.accuracy.description" = "Alpenglow verwendet einen ungefähren Standort, um Vorhersagen abzurufen. Mit Alpenglow Pro verwendet die App Ihren genauen Standort, um Vorhersagen abzurufen.";
+"pro.plusFeatures" = "Sowie diese Alpenglow-Plus-Funktionen & ";
+"pro.forecastNotifications.disclaimer1" = "*Alpenglow speichert Ihren Standort niemals auf einem Server. Daher werden alle Benachrichtigungen auf Ihrem Gerät geplant.";
+"pro.forecastNotifications.disclaimer2" = "*In einigen Fällen weckt iOS Alpenglow möglicherweise nicht im Hintergrund, damit die App Vorhersagebenachrichtigungen planen kann. Ein schwacher Akku, ein Energiesparmodus usw. können sich darauf auswirken, ob iOS Alpenglow erlaubt, die Vorhersage abzurufen.";
+"pro.blurb" = "Payment will be charged to your Apple ID account at the confirmation of purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.\n\nYou can manage and cancel your subscriptions within your App Store Account Settings after purchasing.";
+
+// Tip
+"tipJar.navBar.title" = "Trinkgeld";
+"tipJar.description" = "Vielen Dank, dass Sie Alpenglow bereits unterstützen.\n\nWenn Sie die App wirklich genießen und Ihre Unterstützung erweitern möchten, hilft zusätzliches Trinkgeld, um Kosten zu decken und die App weiterzuentwickeln.";
+
+// IAPS
+"iap.sweet" = "Kleines Trinkgeld";
+"iap.coffee" = "Kaffeegröße Trinkeld";
+"iap.snack" = "Mittelgroßes Trinkeld";
+"iap.lunch" = "Großes Trinkgeld";
+"iap.dinner" = "Großzügiges Trinkgeld";
+"iap.errorRetrieving" = "In-App-Käufe können nicht abgerufen werden";
+"iap.purchasing" = "Einkauf";
+"iap.subscribe" = "Abonnieren";
+"iap.restore" = "Einkäufe wiederherstellen";
+"iap.restoring" = "Wiederherstellen";
+"iap.terms" = "Nutzungsbedingungen";
+
+// Push Notifications
+"reminders.goldenHour.starting" = "Die goldene Stunde startet jetzt & ";
+"reminders.goldenHour.beginning" = "Die goldene Stunde beginnt jetzt & ";
+"reminders.goldenHour.relative" = "Die goldene Stunde ist %@ um %@.";
+"reminders.sunrise.rising" = "Die Sonne geht jetzt auf.";
+"reminders.sunrise.relative" = "Sonnenaufgang ist %@ um %@.";
+"reminders.sunset.setting" = "Die Sonne geht jetzt unter.";
+"reminders.sunset.relative" = "Der Sonnenuntergang ist %@ um %@.";
+
+// Forecast Notifications
+"forecastNotification.text" = "Die Prognose für den %@ ist %@ (%ld%%) in %@ um %@.";
+
+// Shares
+"share.fetching" = "Teilen wird abgerufen";
+"share.fetchFailed" = "Gemeinsame Prognose konnte nicht abgerufen werden";
+"share.eventOccurred" = "Dieses %@ ist bereits passiert.";
+"share.checkYours" = "Überprüfen Sie Ihre Prognose für heute";
