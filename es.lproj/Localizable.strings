@@ -81,6 +81,8 @@
 // Location
 "location.navBar.title" = "Buscar";
 "location.placeholder" = "Buscar ubicación";
+"location.results" = "Results";
+"location.recent" = "Recent";
 
 // Field Report
 "report.navBar.title" = "Informe de campo";
