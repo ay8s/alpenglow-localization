@@ -113,6 +113,8 @@
 "notifications.forecast.title" = "Notificaciones de previsión";
 "notifications.forecast.threshold" = "Umbral";
 "notifications.forecast.unlock" = "Desbloquear Notificaciones\nde previsión con Alpenglow Pro";
+"notifications.forecast.offset" = "Notificaciones de previsión Desplazamiento";
+"notifications.forecast.offset" = "Desplazamiento de previsión";
 
 // Settings
 "settings.navBar.title" = "Configuración";
@@ -168,6 +170,8 @@
 "plus.accuracy.description" = "Las previsiones se obtendrán mediante unas coordenadas más cercanas a tu ubicación exacta.";
 "plus.elevation.title" = "Elevación de la ubicación";
 "plus.elevation.description" = "La elevación de la ubicación se obtendrá y utilizará para proporcionar horas más precisas de la salida y puesta del sol y las horas doradas.";
+"plus.recent.title" = "Recent Locations"; // INT
+"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots."; // INT
 "plus.customization.title" = "Personalización";
 "plus.customization.description" = "Ajusta el esquema de color de la aplicación y selecciona el icono entre las diferentes versiones.";
 "plus.support.title" = "Apoyo a un desarrollador independiente";

@@ -168,6 +168,8 @@
 "plus.accuracy.description" = "Voorspellingen worden opgehaald met behulp van een coördinaat die dichter bij uw exacte locatie ligt.";
 "plus.elevation.title" = "Locatie hoogte";
 "plus.elevation.description" = "De hoogte van de locatie wordt opgehaald en gebruikt om nauwkeurigere tijden voor zonsopgang, zonsondergang en gouden uur te geven.";
+"plus.recent.title" = "Recent Locations"; // INT
+"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots."; // INT
 "plus.customization.title" = "Aanpassingen";
 "plus.customization.description" = "Pas het kleurenschema van de app aan en maak een keuze uit verschillende versies van het app-icoon.";
 "plus.support.title" = "Ondersteun een ontwikkelaar";

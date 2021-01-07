@@ -113,6 +113,7 @@
 "notifications.forecast.title" = "Prognosebenachrichtigungen";
 "notifications.forecast.threshold" = "Schwellenwert";
 "notifications.forecast.unlock" = "Mit Alpenglow Pro entsperren\nPrognosebenachrichtigungen";
+"notifications.forecast.offset" = "Prognose-Offset";
 
 // Settings
 "settings.navBar.title" = "Einstellungen";
@@ -168,6 +169,8 @@
 "plus.accuracy.description" = "Prognosen werden mit einer Koordinate abgerufen, die näher an Ihrem genauen Standort liegt.";
 "plus.elevation.title" = "Standorthöhe";
 "plus.elevation.description" = "Die Standorthöhe wird abgerufen und verwendet, um genauere Zeiten für Sonnenaufgang, Sonnenuntergang und die goldene Stunde bereitzustellen.";
+"plus.recent.title" = "Recent Locations"; // INT
+"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots."; // INT
 "plus.customization.title" = "Individuelle Anpassung";
 "plus.customization.description" = "Passen Sie das Farbschema der App an und wählen Sie aus verschiedenen Versionen des App-Symbols.";
 "plus.support.title" = "Unterstützen Sie einen Indie-Entwickler";

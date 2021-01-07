@@ -113,6 +113,7 @@
 "notifications.forecast.title" = "Forecast Notifications";
 "notifications.forecast.threshold" = "Threshold";
 "notifications.forecast.unlock" = "Unlock Forecast Notifications\nwith Alpenglow Pro";
+"notifications.forecast.offset" = "Forecast Offset";
 
 // Settings
 "settings.navBar.title" = "Settings";
@@ -168,6 +169,8 @@
 "plus.accuracy.description" = "Forecasts will be fetched using a coordinate closer to your exact location.";
 "plus.elevation.title" = "Location Elevation";
 "plus.elevation.description" = "Location elevation will be retrieved and used to provide more accurate times for Sunrise, Sunset and Golden Hour times.";
+"plus.recent.title" = "Recent Locations";
+"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots.";
 "plus.customization.title" = "Customization";
 "plus.customization.description" = "Adjust the color scheme of the app as well as select from different versions of the App Icon.";
 "plus.support.title" = "Support an Indie Developer";
