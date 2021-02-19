@@ -16,26 +16,31 @@
 "Creating" = "Creating";
 
 // Onboarding
-"onboarding.noun" = "noun";
-"onboarding.definition1" = "1. the rosy light of the setting or rising sun seen on high mountains.";
-"onboarding.definition2" = "2. An app that shows you sunrise & sunset times alongside quality forecasts.";
-"onboarding.getStarted" = "Get Started";
+"onboarding.welcome.title" = "Welcome";
+"onboarding.welcome.description" = "Never miss out on a stunning golden hour again.";
+"onboarding.welcome.getStarted" = "Get Started";
 
-"onboarding.location.title" = "Location";
+"onboarding.location.title" = "Enable Location Permissions";
 "onboarding.location.description" = "Your location is only ever stored on your device.\n\nYou can also manually select a location to browse times and forecasts for other locations.";
 "onboarding.location.allow" = "Allow Location Permissions";
-"onboarding.location.skip" = "Select Location Manually Later";
+"onboarding.location.skip" = "Select Location Manually";
 
-"onboarding.notifications.title" = "Notifications";
+"onboarding.notifications.title" = "Enable Notifications";
 "onboarding.notifications.description" = "Receive reminders for Sunrise, Sunset and Golden Hours. Enable Notifications to be able to get these notifications.\n\nYou can adjust these notifications at any time.";
 "onboarding.notifications.allow" = "Enable Notifications";
 "onboarding.notifications.skip" = "Enable Later";
+
+"onboarding.complete.title" = "You're all set!";
+"onboarding.complete.description" = "You're ready to see your Sunrise & Sunset Forecast! \n\nLet's hope it's a good'un!";
+"onboarding.complete.button" = "Let's go!";
 
 "onboarding.error.location." = "Couldn't determine your location.";
 "onboarding.error.notifications" = "Looks like Notification permissions have been denied. Grant permissions within Settings or continue without notifications.";
 
 // Tabs
 "tabs.times" = "Times";
+"tabs.outlook" = "Outlook";
+"tabs.map" = "Map";
 "tabs.notifications" = "Notifications";
 "tabs.settings" = "Settings";
 
@@ -97,6 +102,12 @@
 "report.instagramUsername" = "Instagram Username";
 "report.photo" = "Please attach a photo to attach to your field report.";
 
+// Map
+"map.unlock" = "Unlock the Forecast Map\nwith Alpenglow Pro";
+"map.segment.nextSunrise" = "Next Sunrise";
+"map.segment.nextSunset" = "Next Sunset";
+"map.about" = "About";
+
 // Notifications
 "notifications.navBar.title" = "Notifications";
 "notifications.denied" = "Notifications are Disabled";
@@ -112,6 +123,9 @@
 "notifications.reminderOffset.30mins" = "30 minutes before";
 "notifications.reminderOffset.60mins" = "1 hour before";
 "notifications.reminderOffset.120mins" = "2 Hours before";
+"notifications.reminderOffset.180mins" = "3 hours before";
+"notifications.reminderOffset.360mins" = "6 hours before";
+"notifications.reminderOffset.540mins" = "9 hours before";
 "notifications.forecast.title" = "Forecast Notifications";
 "notifications.forecast.threshold" = "Threshold";
 "notifications.forecast.unlock" = "Unlock Forecast Notifications\nwith Alpenglow Pro";
@@ -167,6 +181,8 @@
 "plus.description" = "Alpenglow Plus unlocks additional features. Just leave a tip and it'll be unlocked for you as a thank you for your support.\n\n You can unlock even more features with Alpenglow Pro, including forecast notifications.";
 "plus.future.title" = "See further into the future";
 "plus.future.description" = "With Alpenglow Plus you can see up to 4 days into the future (vs today & tomorrow).";
+"plus.outlook.title" = "Outlook";
+"plus.outlook.description" = "With the ability to see further into the future you'll also be able to check a glancable view of all available quality forecasts on the Outlook tab.";
 "plus.accuracy.title" = "Increased Accuracy";
 "plus.accuracy.description" = "Forecasts will be fetched using a coordinate closer to your exact location.";
 "plus.elevation.title" = "Location Elevation";
@@ -188,6 +204,8 @@
 "pro.forecastNotifications.description" = "We've all missed an amazing sunrise or sunset. Receive notifications when the forecast for your location is above a threshold set by you.";
 "pro.forecastWidgets.title" = "Forecast Widgets";
 "pro.forecastWidgets.description" = "Unlock Forecast Widgets for your Home Screen. With the ability to display widgets for multiple locations.";
+"pro.map.title" = "Quality Map";
+"pro.map.description" = "View a map of your local area showing the forecasted quality for Sunrise and Sunset.";
 "pro.weather.title" = "Weather Conditions";
 "pro.weather.description" = "View weather conditions alongside Sunrise and Sunset Forecasts. Use these extra details to validate quality forecasts.";
 "pro.accuracy.title" = "More accuracy";
@@ -224,10 +242,13 @@
 "reminders.sunset.relative" = "Sunset is %@ at %@. 🌇";
 
 // Forecast Notifications
-"forecastNotification.text" = "%@ is predicted to be %@ (%@%) in %@.";
+"forecastNotification.text" = "%@ is predicted to be %@ (%@%%%) in %@.";
 
 // Shares
 "share.fetching" = "Fetching Share";
 "share.fetchFailed" = "Failed to fetch shared forecast";
 "share.eventOccurred" = "This %@ has already happened.";
 "share.checkYours" = "Check your forecast for today";
+
+// Forecast Upgrade CTA
+"forecastUpgradeCTA" = "See further into the future";
