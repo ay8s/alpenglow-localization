@@ -129,7 +129,6 @@
 "notifications.forecast.title" = "Notificaciones de previsión";
 "notifications.forecast.threshold" = "Umbral";
 "notifications.forecast.unlock" = "Desbloquear Notificaciones\nde previsión con Alpenglow Pro";
-"notifications.forecast.offset" = "Notificaciones de previsión Desplazamiento";
 "notifications.forecast.offset" = "Desplazamiento de previsión";
 
 // Settings

@@ -123,9 +123,13 @@
 "notifications.reminderOffset.30mins" = "30 minuten ervoor";
 "notifications.reminderOffset.60mins" = "1 uur ervoor";
 "notifications.reminderOffset.120mins" = "2 uur ervoor";
+"notifications.reminderOffset.180mins" = "3 uur ervoor";
+"notifications.reminderOffset.360mins" = "6 uur ervoor";
+"notifications.reminderOffset.540mins" = "9 uur ervoor";
 "notifications.forecast.title" = "Voorspelling meldingen";
 "notifications.forecast.threshold" = "Drempel";
 "notifications.forecast.unlock" = "Ontgrendel voorspellingsmeldingen\nmet Alpenglow Pro";
+"notifications.forecast.offset" = "Voorspelling Melding";
 
 // Settings
 "settings.navBar.title" = "Instellingen";
