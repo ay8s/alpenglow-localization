@@ -16,10 +16,9 @@
 "Creating" = "Wird erstellt";
 
 // Onboarding
-"onboarding.noun" = "Substantiv";
-"onboarding.definition1" = "1. das rosige Licht der untergehenden oder aufgehenden Sonne auf hohen Bergen.";
-"onboarding.definition2" = "2. Eine App, die Ihnen neben Qualitätsvorhersagen auch Sonnenauf- und -untergangszeiten anzeigt.";
-"onboarding.getStarted" = "Jetzt loslegen";
+"onboarding.welcome.title" = "Willkommen";
+"onboarding.welcome.description" = "Verpassen Sie nie wieder eine atemberaubende goldene Stunde.";
+"onboarding.welcome.getStarted" = "ComJetzt loslegenmencer";
 
 "onboarding.location.title" = "Standort";
 "onboarding.location.description" = "Ihr Standort wird immer nur auf Ihrem Gerät gespeichert.\n\nSie können einen Standort auch manuell auswählen, um Zeiten und Prognosen nach anderen Standorten zu durchsuchen.";
@@ -31,11 +30,17 @@
 "onboarding.notifications.allow" = "Benachrichtigungen aktivieren";
 "onboarding.notifications.skip" = "Später aktivieren";
 
+"onboarding.complete.title" = "Du bist bereit";
+"onboarding.complete.description" = "Sie können jetzt Ihre Sonnenaufgang- und Sonnenuntergangsprognose sehen!\n\nHoffen wir, dass es gut ist.";
+"onboarding.complete.button" = "Lass uns gehen";
+
 "onboarding.error.location." = "Ihr Standort konnte nicht ermittelt werden.";
 "onboarding.error.notifications" = "Anscheinend wurden die Benachrichtigungsberechtigungen verweigert. Erteilen Sie Berechtigungen in den Einstellungen oder fahren Sie ohne Benachrichtigungen fort.";
 
 // Tabs
 "tabs.times" = "Zeiten";
+"tabs.outlook" = "Ausblick";
+"tabs.map" = "Karte";
 "tabs.notifications" = "Benachrichtigungen";
 "tabs.settings" = "Einstellungen";
 
@@ -81,6 +86,8 @@
 // Location
 "location.navBar.title" = "Suche";
 "location.placeholder" = "Standort suchen";
+"location.results" = "Results";
+"location.recent" = "Recent";
 
 // Field Report
 "report.navBar.title" = "Feldbericht";
@@ -94,6 +101,12 @@
 "report.allowShare" = "Alpenglow erlauben, das Foto zu teilen";
 "report.instagramUsername" = "Instagram-Benutzername";
 "report.photo" = "Bitte fügen Sie Ihrem Erfahrungsbericht ein Foto an.";
+
+// Map
+"map.unlock" = "Unlock the Forecast Map\nwith Alpenglow Pro";
+"map.segment.nextSunrise" = "Next Sunrise";
+"map.segment.nextSunset" = "Next Sunset";
+"map.about" = "Über";
 
 // Notifications
 "notifications.navBar.title" = "Benachrichtigungen";
@@ -110,9 +123,13 @@
 "notifications.reminderOffset.30mins" = "30 Minuten vorher";
 "notifications.reminderOffset.60mins" = "1 Stunde vorher";
 "notifications.reminderOffset.120mins" = "2 Stunden vorher";
+"notifications.reminderOffset.180mins" = "3 Stunden vorher";
+"notifications.reminderOffset.360mins" = "6 Stunden vorher";
+"notifications.reminderOffset.540mins" = "9 Stunden vorher";
 "notifications.forecast.title" = "Prognosebenachrichtigungen";
 "notifications.forecast.threshold" = "Schwellenwert";
 "notifications.forecast.unlock" = "Mit Alpenglow Pro entsperren\nPrognosebenachrichtigungen";
+"notifications.forecast.offset" = "Prognose-Offset";
 
 // Settings
 "settings.navBar.title" = "Einstellungen";
@@ -164,10 +181,14 @@
 "plus.description" = "Alpenglow Plus schaltet zusätzliche Funktionen frei. Hinterlassen Sie einfach ein Trinkgeld und es wird für Sie als Dankeschön für Ihre Unterstützung freigeschaltet.\n\n Mit Alpenglow Pro können Sie noch mehr Funktionen freischalten, einschließlich Prognosebenachrichtigungen.";
 "plus.future.title" = "Weiter in die Zukunft sehen";
 "plus.future.description" = "Mit Alpenglow Plus können Sie bis zu 4 Tage in die Zukunft sehen (im Vergleich zu heute und morgen).";
+"plus.outlook.title" = "Outlook";
+"plus.outlook.description" = "With the ability to see further into the future you'll also be able to check a glancable view of all available quality forecasts on the Outlook tab.";
 "plus.accuracy.title" = "Höhere Genauigkeit";
 "plus.accuracy.description" = "Prognosen werden mit einer Koordinate abgerufen, die näher an Ihrem genauen Standort liegt.";
 "plus.elevation.title" = "Standorthöhe";
 "plus.elevation.description" = "Die Standorthöhe wird abgerufen und verwendet, um genauere Zeiten für Sonnenaufgang, Sonnenuntergang und die goldene Stunde bereitzustellen.";
+"plus.recent.title" = "Recent Locations"; // INT
+"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots."; // INT
 "plus.customization.title" = "Individuelle Anpassung";
 "plus.customization.description" = "Passen Sie das Farbschema der App an und wählen Sie aus verschiedenen Versionen des App-Symbols.";
 "plus.support.title" = "Unterstützen Sie einen Indie-Entwickler";
@@ -183,6 +204,8 @@
 "pro.forecastNotifications.description" = "Wir haben alle einen erstaunlichen Sonnenaufgang oder Sonnenuntergang verpasst. Erhalten Sie Benachrichtigungen, wenn die Prognose für Ihren Standort über einem von Ihnen festgelegten Schwellenwert liegt.";
 "pro.forecastWidgets.title" = "Prognose-Widgets";
 "pro.forecastWidgets.description" = "Prognose-Widgets für Ihren Startbildschirm freischalten. Mit der Möglichkeit, Widgets für mehrere Standorte anzuzeigen.";
+"pro.map.title" = "Quality Map";
+"pro.map.description" = "View a map of your local area showing the forecasted quality for Sunrise and Sunset.";
 "pro.weather.title" = "Wetterbedingungen";
 "pro.weather.description" = "Zeigen Sie die Wetterbedingungen zusammen mit Sonnenaufgang- und Sonnenuntergangsprognosen an. Verwenden Sie diese zusätzlichen Details, um Qualitätsprognosen zu validieren.";
 "pro.accuracy.title" = "Mehr Genauigkeit";
@@ -226,3 +249,6 @@
 "share.fetchFailed" = "Gemeinsame Prognose konnte nicht abgerufen werden";
 "share.eventOccurred" = "Dieses %@ ist bereits passiert.";
 "share.checkYours" = "Überprüfen Sie Ihre Prognose für heute";
+
+// Forecast Upgrade CTA
+"forecastUpgradeCTA" = "Weiter in die Zukunft sehen";

@@ -16,10 +16,9 @@
 "Creating" = "Creando";
 
 // Onboarding
-"onboarding.noun" = "nombre";
-"onboarding.definition1" = "1. La luz rosada del sol poniente o naciente que se ve sobre las altas montañas.";
-"onboarding.definition2" = "2. Una aplicación que te muestra las horas de salida y puesta del sol junto con previsiones meteorológicas de calidad.";
-"onboarding.getStarted" = "Comenzar";
+"onboarding.welcome.title" = "Bienvenido";
+"onboarding.welcome.description" = "No vuelva a perderse una impresionante hora dorada.";
+"onboarding.welcome.getStarted" = "Comenzar";
 
 "onboarding.location.title" = "Ubicación";
 "onboarding.location.description" = "La ubicación solo se almacena en tu dispositivo.\n\nTambién puedes seleccionar manualmente una ubicación para buscar horarios y previsiones para otras ubicaciones.";
@@ -31,11 +30,17 @@
 "onboarding.notifications.allow" = "Habilitar notificaciones";
 "onboarding.notifications.skip" = "Habilitar más tarde";
 
+"onboarding.complete.title" = "Estas lista";
+"onboarding.complete.description" = "¡Está listo para ver su pronóstico de amanecer y atardecer!\n\nEsperemos que sea bueno.";
+"onboarding.complete.button" = "Vamos";
+
 "onboarding.error.location." = "No se ha podido determinar tu ubicación.";
 "onboarding.error.notifications" = "Parece que se han denegado los permisos de notificación. Concede permisos en la Configuración o continúa sin notificaciones.";
 
 // Tabs
 "tabs.times" = "Horas";
+"tabs.outlook" = "Perspective";
+"tabs.map" = "Mapa";
 "tabs.notifications" = "Notificaciones";
 "tabs.settings" = "Configuración";
 
@@ -81,6 +86,8 @@
 // Location
 "location.navBar.title" = "Buscar";
 "location.placeholder" = "Buscar ubicación";
+"location.results" = "Results";
+"location.recent" = "Recent";
 
 // Field Report
 "report.navBar.title" = "Informe de campo";
@@ -94,6 +101,12 @@
 "report.allowShare" = "Permitir que Alpenglow comparta fotos";
 "report.instagramUsername" = "Usuario de Instagram";
 "report.photo" = "Por favor, adjunta una foto a tu informe de campo.";
+
+// Map
+"map.unlock" = "Unlock the Forecast Map\nwith Alpenglow Pro";
+"map.segment.nextSunrise" = "Next Sunrise";
+"map.segment.nextSunset" = "Next Sunset";
+"map.about" = "Acerca de";
 
 // Notifications
 "notifications.navBar.title" = "Notificaciones";
@@ -110,9 +123,13 @@
 "notifications.reminderOffset.30mins" = "30 minutos antes";
 "notifications.reminderOffset.60mins" = "1 hora antes";
 "notifications.reminderOffset.120mins" = "2 horas antes";
+"notifications.reminderOffset.180mins" = "3 horas antes";
+"notifications.reminderOffset.360mins" = "6 horas antes";
+"notifications.reminderOffset.540mins" = "9 horas antes";
 "notifications.forecast.title" = "Notificaciones de previsión";
 "notifications.forecast.threshold" = "Umbral";
 "notifications.forecast.unlock" = "Desbloquear Notificaciones\nde previsión con Alpenglow Pro";
+"notifications.forecast.offset" = "Desplazamiento de previsión";
 
 // Settings
 "settings.navBar.title" = "Configuración";
@@ -164,10 +181,14 @@
 "plus.description" = "Alpenglow Plus desbloquea funciones adicionales. Solo tienes que hacer una aportación y se te desbloqueará en agradecimiento por tu apoyo.\n\n Puedes desbloquear aún más funciones con Alpenglow Pro, incluidas las notificaciones de previsión.";
 "plus.future.title" = "Ver más días";
 "plus.future.description" = "Con Alpenglow Plus puede ver hasta 4 días de previsión (en lugar de hoy y mañana).";
+"plus.outlook.title" = "Outlook";
+"plus.outlook.description" = "With the ability to see further into the future you'll also be able to check a glancable view of all available quality forecasts on the Outlook tab.";
 "plus.accuracy.title" = "Mayor precisión";
 "plus.accuracy.description" = "Las previsiones se obtendrán mediante unas coordenadas más cercanas a tu ubicación exacta.";
 "plus.elevation.title" = "Elevación de la ubicación";
 "plus.elevation.description" = "La elevación de la ubicación se obtendrá y utilizará para proporcionar horas más precisas de la salida y puesta del sol y las horas doradas.";
+"plus.recent.title" = "Recent Locations"; // INT
+"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots."; // INT
 "plus.customization.title" = "Personalización";
 "plus.customization.description" = "Ajusta el esquema de color de la aplicación y selecciona el icono entre las diferentes versiones.";
 "plus.support.title" = "Apoyo a un desarrollador independiente";
@@ -183,6 +204,8 @@
 "pro.forecastNotifications.description" = "Todos nos hemos perdido algún amanecer o atardecer asombrosos. Recibe notificaciones cuando la previsión para tu ubicación supere un umbral establecido por ti mismo.";
 "pro.forecastWidgets.title" = "«Widgets» de previsión";
 "pro.forecastWidgets.description" = "Desbloquea los «widgets» de previsión para tu pantalla de inicio. Con la capacidad de mostrar «widgets» para múltiples ubicaciones.";
+"pro.map.title" = "Quality Map";
+"pro.map.description" = "View a map of your local area showing the forecasted quality for Sunrise and Sunset.";
 "pro.weather.title" = "Condiciones meteorológicas";
 "pro.weather.description" = "Mira las condiciones meteorológicas junto con las previsiones de salida y puesta del sol. Utiliza estos detalles adicionales para validar unas previsiones de calidad.";
 "pro.accuracy.title" = "Más precisión";
@@ -226,3 +249,6 @@
 "share.fetchFailed" = "No se ha podido obtener la previsión compartida";
 "share.eventOccurred" = "Este %@ ya ha ocurrido.";
 "share.checkYours" = "Consulta tu previsión para hoy";
+
+// Forecast Upgrade CTA
+"forecastUpgradeCTA" = "Ver más días";

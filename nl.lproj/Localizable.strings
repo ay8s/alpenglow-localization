@@ -1,10 +1,10 @@
 /*
-  Localizabe.strings
-  Alpenglow
-
-  Created by Andrew Yates on 2/13/19.
-  Copyright © 2019 Andrew Yates. All rights reserved.
-*/
+ Localizabe.strings
+ Alpenglow
+ 
+ Created by Andrew Yates on 2/13/19.
+ Copyright © 2019 Andrew Yates. All rights reserved.
+ */
 
 // Common
 "Whoops" = "Oeps";
@@ -16,10 +16,9 @@
 "Creating" = "Maken";
 
 // Onboarding
-"onboarding.noun" = "zelfstandig naamwoord";
-"onboarding.definition1" = "1. Het roze licht van de ondergaande of opkomende zon gezien op hoge bergen.";
-"onboarding.definition2" = "2. Een app die je de tijden van zonsopgang en zonsondergang laat zien naast kwaliteitsvoorspellingen.";
-"onboarding.getStarted" = "Beginnen";
+"onboarding.welcome.title" = "Welkom";
+"onboarding.welcome.description" = "Mis nooit meer een prachtig gouden uur.";
+"onboarding.welcome.getStarted" = "Beginnen";
 
 "onboarding.location.title" = "Locatie";
 "onboarding.location.description" = "Je locatie wordt alleen op uw apparaat opgeslagen.\n\nJe kunt ook handmatig een locatie selecteren om door tijden en voorspellingen voor andere locaties te bladeren.";
@@ -31,11 +30,17 @@
 "onboarding.notifications.allow" = "Meldingen toestaan";
 "onboarding.notifications.skip" = "Later toestaan";
 
+"onboarding.complete.title" = "Je bent klaar";
+"onboarding.complete.description" = "U bent klaar om uw weersvoorspelling voor zonsopgang en zonsondergang te zien!\n\nLaten we hopen dat het een goede is.";
+"onboarding.complete.button" = "Laten we gaan";
+
 "onboarding.error.location." = "Kan je locatie niet bepalen.";
 "onboarding.error.notifications" = "Het lijkt erop dat de machtigingen voor meldingen zijn geweigerd. Verleen machtigingen binnen Instellingen of ga door zonder meldingen.";
 
 // Tabs
 "tabs.times" = "Tijden";
+"tabs.outlook" = "Outlook";
+"tabs.map" = "Kaart";
 "tabs.notifications" = "Notificaties";
 "tabs.settings" = "Instellingen";
 
@@ -81,6 +86,8 @@
 // Location
 "location.navBar.title" = "Zoeken";
 "location.placeholder" = "Zoeken naar locatie";
+"location.results" = "Results";
+"location.recent" = "Recent";
 
 // Field Report
 "report.navBar.title" = "Veldrapport";
@@ -94,6 +101,12 @@
 "report.allowShare" = "Sta Alpenglow toe om de foto te delen";
 "report.instagramUsername" = "Instagram gebruikersnaam";
 "report.photo" = "Voeg een foto toe aan je veldrapport.";
+
+// Map
+"map.unlock" = "Unlock the Forecast Map\nwith Alpenglow Pro";
+"map.segment.nextSunrise" = "Next Sunrise";
+"map.segment.nextSunset" = "Next Sunset";
+"map.about" = "Over";
 
 // Notifications
 "notifications.navBar.title" = "Meldingen";
@@ -110,9 +123,13 @@
 "notifications.reminderOffset.30mins" = "30 minuten ervoor";
 "notifications.reminderOffset.60mins" = "1 uur ervoor";
 "notifications.reminderOffset.120mins" = "2 uur ervoor";
+"notifications.reminderOffset.180mins" = "3 uur ervoor";
+"notifications.reminderOffset.360mins" = "6 uur ervoor";
+"notifications.reminderOffset.540mins" = "9 uur ervoor";
 "notifications.forecast.title" = "Voorspelling meldingen";
 "notifications.forecast.threshold" = "Drempel";
 "notifications.forecast.unlock" = "Ontgrendel voorspellingsmeldingen\nmet Alpenglow Pro";
+"notifications.forecast.offset" = "Voorspelling Melding";
 
 // Settings
 "settings.navBar.title" = "Instellingen";
@@ -164,10 +181,14 @@
 "plus.description" = "Alpenglow Plus ontgrendelt extra functies. Laat gewoon een fooi achter en deze wordt voor u ontgrendeld als dank voor uw steun.\n\n Je kan zelfs nog meer functies ontgrendelen met Alpenglow Pro, inclusief voorspellingsmeldingen.";
 "plus.future.title" = "Kijk verder in de toekomst";
 "plus.future.description" = "Met Alpenglow Plus kan je tot 4 dagen in de toekomst zien (tegenover vandaag & morgen).";
+"plus.outlook.title" = "Outlook";
+"plus.outlook.description" = "With the ability to see further into the future you'll also be able to check a glancable view of all available quality forecasts on the Outlook tab.";
 "plus.accuracy.title" = "Verhoogde nauwkeurigheid";
 "plus.accuracy.description" = "Voorspellingen worden opgehaald met behulp van een coördinaat die dichter bij uw exacte locatie ligt.";
 "plus.elevation.title" = "Locatie hoogte";
 "plus.elevation.description" = "De hoogte van de locatie wordt opgehaald en gebruikt om nauwkeurigere tijden voor zonsopgang, zonsondergang en gouden uur te geven.";
+"plus.recent.title" = "Recent Locations";
+"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots.";
 "plus.customization.title" = "Aanpassingen";
 "plus.customization.description" = "Pas het kleurenschema van de app aan en maak een keuze uit verschillende versies van het app-icoon.";
 "plus.support.title" = "Ondersteun een ontwikkelaar";
@@ -183,6 +204,8 @@
 "pro.forecastNotifications.description" = "We hebben allemaal weleens een geweldige zonsopgang of zonsondergang gemist. Ontvang meldingen wanneer de weersvoorspelling voor uw locatie een door jou ingestelde drempel overschrijdt.";
 "pro.forecastWidgets.title" = "Voorspelling widgets";
 "pro.forecastWidgets.description" = "Ontgrendel voorspelling widgets voor je beginscherm. Met de mogelijkheid voor het weergeven van widgets voor meerdere locaties.";
+"pro.map.title" = "Quality Map";
+"pro.map.description" = "View a map of your local area showing the forecasted quality for Sunrise and Sunset.";
 "pro.weather.title" = "Weersomstandigheden";
 "pro.weather.description" = "Bekijk weersomstandigheden samen met zonsopkomst en zonsondergang voorspellingen. Gebruik deze extra details om kwaliteitsvoorspellingen te valideren.";
 "pro.accuracy.title" = "Meer nauwkeurigheid";
@@ -226,3 +249,6 @@
 "share.fetchFailed" = "Kan gedeelde voorspelling niet ophalen";
 "share.eventOccurred" = "Deze %@ heeft al plaatsgevonden.";
 "share.checkYours" = "Bekijk je voorspelling voor vandaag";
+
+// Forecast Upgrade CTA
+"forecastUpgradeCTA" = "Kijk verder in de toekomst";
