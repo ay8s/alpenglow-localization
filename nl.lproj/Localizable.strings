@@ -39,7 +39,7 @@
 
 // Tabs
 "tabs.times" = "Tijden";
-"tabs.outlook" = "Outlook";
+"tabs.outlook" = "Vooruitzicht";
 "tabs.map" = "Kaart";
 "tabs.notifications" = "Notificaties";
 "tabs.settings" = "Instellingen";
@@ -181,14 +181,14 @@
 "plus.description" = "Alpenglow Plus ontgrendelt extra functies. Laat gewoon een fooi achter en deze wordt voor u ontgrendeld als dank voor uw steun.\n\n Je kan zelfs nog meer functies ontgrendelen met Alpenglow Pro, inclusief voorspellingsmeldingen.";
 "plus.future.title" = "Kijk verder in de toekomst";
 "plus.future.description" = "Met Alpenglow Plus kan je tot 4 dagen in de toekomst zien (tegenover vandaag & morgen).";
-"plus.outlook.title" = "Outlook";
-"plus.outlook.description" = "With the ability to see further into the future you'll also be able to check a glancable view of all available quality forecasts on the Outlook tab.";
+"plus.outlook.title" = "Vooruitzicht";
+"plus.outlook.description" = "Met de mogelijkheid om verder in de toekomst te kijken bekijk je snel alle beschikbare kwaliteits voorspellingen op de Vooruitzicht tab.";
 "plus.accuracy.title" = "Verhoogde nauwkeurigheid";
 "plus.accuracy.description" = "Voorspellingen worden opgehaald met behulp van een coördinaat die dichter bij uw exacte locatie ligt.";
 "plus.elevation.title" = "Locatie hoogte";
 "plus.elevation.description" = "De hoogte van de locatie wordt opgehaald en gebruikt om nauwkeurigere tijden voor zonsopgang, zonsondergang en gouden uur te geven.";
-"plus.recent.title" = "Recent Locations";
-"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots.";
+"plus.recent.title" = "Recente Locaties";
+"plus.recent.description" = "Je hebt snel toegang tot je 5 meest recent gebruikte locaties met de locatie selectie, waardoor je snel de voorspelling voor je favoriete locaties kan bekijken.";
 "plus.customization.title" = "Aanpassingen";
 "plus.customization.description" = "Pas het kleurenschema van de app aan en maak een keuze uit verschillende versies van het app-icoon.";
 "plus.support.title" = "Ondersteun een ontwikkelaar";
@@ -204,8 +204,8 @@
 "pro.forecastNotifications.description" = "We hebben allemaal weleens een geweldige zonsopgang of zonsondergang gemist. Ontvang meldingen wanneer de weersvoorspelling voor uw locatie een door jou ingestelde drempel overschrijdt.";
 "pro.forecastWidgets.title" = "Voorspelling widgets";
 "pro.forecastWidgets.description" = "Ontgrendel voorspelling widgets voor je beginscherm. Met de mogelijkheid voor het weergeven van widgets voor meerdere locaties.";
-"pro.map.title" = "Quality Map";
-"pro.map.description" = "View a map of your local area showing the forecasted quality for Sunrise and Sunset.";
+"pro.map.title" = "Kwaliteitskaart";
+"pro.map.description" = "Bekijk een kaart van je lokale omgeving met de voorspelde kwaliteit zonsopgang en zonsondergang.";
 "pro.weather.title" = "Weersomstandigheden";
 "pro.weather.description" = "Bekijk weersomstandigheden samen met zonsopkomst en zonsondergang voorspellingen. Gebruik deze extra details om kwaliteitsvoorspellingen te valideren.";
 "pro.accuracy.title" = "Meer nauwkeurigheid";
