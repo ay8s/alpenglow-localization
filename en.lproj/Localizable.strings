@@ -14,14 +14,15 @@
 "Got it!" = "Got it!";
 "Fetching" = "Fetching";
 "Creating" = "Creating";
+"Retry" = "Retry";
 
 // Onboarding
 "onboarding.welcome.title" = "Welcome";
 "onboarding.welcome.description" = "Never miss out on a stunning golden hour again.";
 "onboarding.welcome.getStarted" = "Get Started";
 
-"onboarding.location.title" = "Enable Location Permissions";
-"onboarding.location.description" = "Your location is only ever stored on your device.\n\nYou can also manually select a location to browse times and forecasts for other locations.";
+"onboarding.location.title" = "Location Permissions";
+"onboarding.location.description" = "Your location is only ever stored on your device.\n\nYou'll also be able manually select a location to browse times and forecasts for other locations.";
 "onboarding.location.allow" = "Allow Location Permissions";
 "onboarding.location.skip" = "Select Location Manually";
 
@@ -200,6 +201,13 @@
 "pro.navBar.title" = "Unlock Alpenglow Pro";
 "pro.legacyDescription" = "You're awesome! You already have unlocked Alpenglow Pro when you previously tipped, you have all of the features listed below.\n\nIf you want to be extra awesome and support Alpenglow further you can choose to Subscribe to a new Alpenglow Pro Subscription or Lifetime payment.";
 "pro.description" = "Alpenglow Pro unlocks everything in Alpenglow Plus, along with some extra features that incur ongoing server costs and additional SunsetWX usage.";
+"pro.continue" = "Continue";
+"pro.information.subscription" = "Includes %@ free trial.\nCancel before %@ and nothing will be billed.";
+"pro.information.subscriptionDatePlaceholder" = "end of trial";
+"pro.information.lifetime" = "A one-time purchase. No recurring subscription.\n";
+"pro.period.monthly" = "Monthly";
+"pro.period.yearly" = "Yearly";
+"pro.period.lifetime" = "Lifetime";
 "pro.forecastNotifications.title" = "Forecast Notifications *";
 "pro.forecastNotifications.description" = "We've all missed an amazing sunrise or sunset. Receive notifications when the forecast for your location is above a threshold set by you.";
 "pro.forecastWidgets.title" = "Forecast Widgets";

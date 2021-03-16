@@ -14,6 +14,7 @@
 "Got it!" = "Entendu !";
 "Fetching" = "Récupération";
 "Creating" = "Création";
+"Retry" = "Recommencez";
 
 // Onboarding
 "onboarding.welcome.title" = "Bienvenue";
@@ -200,6 +201,13 @@
 "pro.navBar.title" = "Débloquez Alpenglow Pro";
 "pro.legacyDescription" = "Vous êtes super ! Vous avez déjà débloqué Alpenglow Pro lorsque vous avez précédemment donné un pourboire. Vous disposez donc de toutes les fonctionnalités énumérées ci-dessous.\n\n Si vous voulez être encore plus génial et soutenir Alpenglow, vous pouvez choisir de souscrire un nouvel abonnement Alpenglow Pro ou effectuer un seul paiement pour toute la vie.";
 "pro.description" = "Alpenglow Pro déverrouille tout dans Alpenglow Plus, ainsi que certaines fonctionnalités supplémentaires qui entraînent des coûts de serveur plus importants et une utilisation supplémentaire de SunsetWX.";
+"pro.continue" = "Continuez";
+"pro.information.subscription" = "Includes %@ free trial.\nCancel before %@ and nothing will be billed.";
+"pro.information.subscriptionDatePlaceholder" = "end of trial";
+"pro.information.lifetime" = "A one-time purchase. No recurring subscription.\n";
+"pro.period.monthly" = "Monthly";
+"pro.period.yearly" = "Yearly";
+"pro.period.lifetime" = "Lifetime";
 "pro.forecastNotifications.title" = "Notifications de prévisions*";
 "pro.forecastNotifications.description" = "Nous avons déjà tous raté un splendide lever ou un coucher de soleil. Recevez des notifications lorsque les prévisions pour votre emplacement dépassent un seuil que vous avez préalablement défini.";
 "pro.forecastWidgets.title" = "Widgets de prévision";
@@ -242,7 +250,7 @@
 "reminders.sunset.relative" = "Le coucher du soleil est %@ à %@.";
 
 // Forecast Notifications
-"forecastNotification.text" = "Le %@ devrait être %@ (%ld%%) dans %@ à %@.";
+"forecastNotification.text" = "Le %@ devrait être %@ (%@%%) dans %@.";
 
 // Shares
 "share.fetching" = "Récupération du partage";

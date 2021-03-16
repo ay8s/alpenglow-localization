@@ -14,6 +14,7 @@
 "Got it!" = "Alles klar!";
 "Fetching" = "Wird abgerufen";
 "Creating" = "Wird erstellt";
+"Retry" = "Wiederholen";
 
 // Onboarding
 "onboarding.welcome.title" = "Willkommen";
@@ -200,6 +201,13 @@
 "pro.navBar.title" = "Alpenglow Pro freischalten";
 "pro.legacyDescription" = "Sie sind großartig! Sie haben Alpenglow Pro bereits freigeschaltet, als Sie zuvor ein Trinkgeld gegeben haben. Sie verfügen über alle unten aufgeführten Funktionen.\n\nWenn Sie besonders großartig sein und Alpenglow weiter unterstützen möchten, können Sie ein neues Alpenglow-Pro-Abonnement abschließen oder eine lebenslange Zahlung abonnieren.";
 "pro.description" = "Alpenglow Pro schaltet alles in Alpenglow Plus frei, zusammen mit einigen zusätzlichen Funktionen, die laufende Serverkosten und zusätzliche SunsetWX-Nutzung verursachen.";
+"pro.continue" = "Fortsetzen";
+"pro.information.subscription" = "Includes %@ free trial.\nCancel before %@ and nothing will be billed.";
+"pro.information.subscriptionDatePlaceholder" = "end of trial";
+"pro.information.lifetime" = "A one-time purchase. No recurring subscription.\n";
+"pro.period.monthly" = "Monthly";
+"pro.period.yearly" = "Yearly";
+"pro.period.lifetime" = "Lifetime";
 "pro.forecastNotifications.title" = "Prognosebenachrichtigungen*";
 "pro.forecastNotifications.description" = "Wir haben alle einen erstaunlichen Sonnenaufgang oder Sonnenuntergang verpasst. Erhalten Sie Benachrichtigungen, wenn die Prognose für Ihren Standort über einem von Ihnen festgelegten Schwellenwert liegt.";
 "pro.forecastWidgets.title" = "Prognose-Widgets";
@@ -242,7 +250,7 @@
 "reminders.sunset.relative" = "Der Sonnenuntergang ist %@ um %@.";
 
 // Forecast Notifications
-"forecastNotification.text" = "Die Prognose für den %@ ist %@ (%ld%%) in %@ um %@.";
+"forecastNotification.text" = "Die Prognose für den %@ ist %@ (%@%%) in %@";
 
 // Shares
 "share.fetching" = "Teilen wird abgerufen";

@@ -14,6 +14,7 @@
 "Got it!" = "Begrepen!";
 "Fetching" = "Ophalen";
 "Creating" = "Maken";
+"Retry" = "Probeer het opnieuw";
 
 // Onboarding
 "onboarding.welcome.title" = "Welkom";
@@ -200,6 +201,13 @@
 "pro.navBar.title" = "Ontgrendel Alpenglow Pro";
 "pro.legacyDescription" = "Je bent geweldig! Je hebt Alpenglow Pro al ontgrendeld toen je eerder een fooi gaf, je hebt alle onderstaande functies.\n\nAls je extra geweldig wilt zijn en Alpenglow verder wilt steunen, kun je ervoor kiezen om je te abonneren op een nieuw Alpenglow Pro-abonnement of levenslange betaling.";
 "pro.description" = "Alpenglow Pro ontgrendelt alles in Alpenglow Plus, samen met enkele extra functies die doorlopende serverkosten en extra SunsetWX-gebruik met zich meebrengen.";
+"pro.continue" = "Doorgaan met";
+"pro.information.subscription" = "Includes %@ free trial.\nCancel before %@ and nothing will be billed.";
+"pro.information.subscriptionDatePlaceholder" = "end of trial";
+"pro.information.lifetime" = "A one-time purchase. No recurring subscription.\n";
+"pro.period.monthly" = "Monthly";
+"pro.period.yearly" = "Yearly";
+"pro.period.lifetime" = "Lifetime";
 "pro.forecastNotifications.title" = "Voorspellingsmeldingen *";
 "pro.forecastNotifications.description" = "We hebben allemaal weleens een geweldige zonsopgang of zonsondergang gemist. Ontvang meldingen wanneer de weersvoorspelling voor uw locatie een door jou ingestelde drempel overschrijdt.";
 "pro.forecastWidgets.title" = "Voorspelling widgets";
@@ -242,7 +250,7 @@
 "reminders.sunset.relative" = "Zonsondergang is %@ om %@. 🌇";
 
 // Forecast Notifications
-"forecastNotification.text" = "De voorspelling voor %@ is %@ (%@%) in %@.";
+"forecastNotification.text" = "De voorspelling voor %@ is %@ (%@%%) in %@.";
 
 // Shares
 "share.fetching" = "Delen ophalen";
