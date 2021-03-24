@@ -70,6 +70,7 @@
 // Predications
 "prediction.report.title" = "¿Cómo se ve?";
 "prediction.report.button" = "Enviar informe";
+"prediction.report.description" = "Help me improve the Sunrise & Sunset Quality Forecasts by sharing a field report.";
 "prediction.poor" = "Mal";
 "prediction.fair" = "Aceptable";
 "prediction.good" = "Bien";
@@ -88,6 +89,7 @@
 "location.navBar.title" = "Buscar";
 "location.placeholder" = "Buscar ubicación";
 "location.results" = "Results";
+"location.noResults" = "No Results";
 "location.recent" = "Recent";
 
 // Field Report
@@ -161,6 +163,15 @@
 "settings.whatsNew" = "Qué hay de nuevo";
 "settings.merch" = "Alpenglow Merch";
 
+// Widgets
+"settings.widgets.intro" = "To add a Widget to your Home Screen or Today View, go to your Home Screen or Today View, then tap and hold a Widget or an empty area until Icons/Widgets start to jiggle. Then tap the Add button and find Alpenglow within the list.";
+"settings.widgets.forecastWidget.title" = "Forecast Widget";
+"settings.widgets.forecastWidget.description" = "Shows the next Sunrise or Sunset Forecast for the selected location. Available with Alpenglow Pro";
+"settings.widgets.outlookWidget.title" = "Outlook Widget";
+"settings.widgets.outlookWidget.description" = "Shows the Sunrise and Sunset Forecasts for the selected location up-to 4 days ahead. Available with Alpenglow Pro.";
+"settings.widgets.timesWidget.title" = "Times Widget";
+"settings.widgets.nextEventWidget.title" = "Next Event Widget";
+
 // App Color
 "customColor.navBar.title" = "Color principal de la aplicación";
 "customColor.default" = "Predeterminado";
@@ -183,7 +194,7 @@
 "plus.future.title" = "Ver más días";
 "plus.future.description" = "Con Alpenglow Plus puede ver hasta 4 días de previsión (en lugar de hoy y mañana).";
 "plus.outlook.title" = "Outlook";
-"plus.outlook.description" = "With the ability to see further into the future you'll also be able to check a glancable view of all available quality forecasts on the Outlook tab.";
+"plus.outlook.description" = "With the ability to see further into the future you'll also be able to check a glancable view of all available quality forecasts on the Outlook tab. Outlook Widget available with Alpenglow Pro.";
 "plus.accuracy.title" = "Mayor precisión";
 "plus.accuracy.description" = "Las previsiones se obtendrán mediante unas coordenadas más cercanas a tu ubicación exacta.";
 "plus.elevation.title" = "Elevación de la ubicación";
@@ -201,6 +212,8 @@
 "pro.navBar.title" = "Desbloquear Alpenglow Pro";
 "pro.legacyDescription" = "¡Eres increíble! Ya desbloqueaste Alpenglow Pro cuando hiciste tu aportación, así que ya tienes todas las funciones que se enumeran a continuación.\n\nSi eres tan increíble que quieres dar un mayor apoyo a Alpenglow, puedes optar por realizar una nueva suscripción a Alpenglow Pro o hacer un pago para una suscripción de por vida.";
 "pro.description" = "Alpenglow Pro desbloquea todas las funciones de Alpenglow Plus, junto con algunas funciones adicionales que generan unos costes de servidor continuos y un uso adicional de SunsetWX.";
+"pro.save" = "Save %ld%%";
+"pro.onetime" = "One-time";
 "pro.continue" = "Continuar";
 "pro.information.subscription" = "Includes %@ free trial.\nCancel before %@ and nothing will be billed.";
 "pro.information.subscriptionDatePlaceholder" = "end of trial";
@@ -214,6 +227,8 @@
 "pro.forecastWidgets.description" = "Desbloquea los «widgets» de previsión para tu pantalla de inicio. Con la capacidad de mostrar «widgets» para múltiples ubicaciones.";
 "pro.map.title" = "Quality Map";
 "pro.map.description" = "View a map of your local area showing the forecasted quality for Sunrise and Sunset.";
+"pro.outlookWidget.title" = "Outlook Widget";
+"pro.outlookWidget.description" = "Glance the Sunrise & Sunset forecast for a location up-to 4 days into the future right on your Home Screen.";
 "pro.weather.title" = "Condiciones meteorológicas";
 "pro.weather.description" = "Mira las condiciones meteorológicas junto con las previsiones de salida y puesta del sol. Utiliza estos detalles adicionales para validar unas previsiones de calidad.";
 "pro.accuracy.title" = "Más precisión";
@@ -260,3 +275,18 @@
 
 // Forecast Upgrade CTA
 "forecastUpgradeCTA" = "Ver más días";
+
+// Widget Descriptions
+"widget.nextEvent.title" = "Next Event";
+"widget.nextEvent.description" = "Countdown to the next Sunrise, Sunset and Magic Hours.";
+"widget.times.title" = "Times";
+"widget.times.description" = "Sunrise, Sunset and Golden Hour Times.";
+"widget.forecast.title" = "Quality Forecasts";
+"widget.forecast.description" = "Sunrise & Sunset Quality Forecasts. Requires Alpenglow Pro.";
+"widget.outlook.title" = "Forecast Outlook";
+"widget.outlook.description" = "Sunrise & Sunset Forecast for up-to 4 days. Requires Alpenglow Pro.";
+
+// Widget States
+"widget.requiresPro" = "Requires Alpenglow Pro";
+"widget.requiresLocation" = "Open app & ensure location is enabled.";
+"widget.editLocation" = "Edit Widget to Select a Location";

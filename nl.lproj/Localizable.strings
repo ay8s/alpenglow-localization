@@ -70,6 +70,7 @@
 // Predications
 "prediction.report.title" = "Hoe ziet het er uit?";
 "prediction.report.button" = "Rapport indienen";
+"prediction.report.description" = "Help me improve the Sunrise & Sunset Quality Forecasts by sharing a field report.";
 "prediction.poor" = "Slecht";
 "prediction.fair" = "Matig";
 "prediction.good" = "Goed";
@@ -88,6 +89,7 @@
 "location.navBar.title" = "Zoeken";
 "location.placeholder" = "Zoeken naar locatie";
 "location.results" = "Results";
+"location.noResults" = "No Results";
 "location.recent" = "Recent";
 
 // Field Report
@@ -161,6 +163,15 @@
 "settings.whatsNew" = "Wat is er nieuw";
 "settings.merch" = "Alpenglow Merchandise";
 
+// Widgets
+"settings.widgets.intro" = "To add a Widget to your Home Screen or Today View, go to your Home Screen or Today View, then tap and hold a Widget or an empty area until Icons/Widgets start to jiggle. Then tap the Add button and find Alpenglow within the list.";
+"settings.widgets.forecastWidget.title" = "Forecast Widget";
+"settings.widgets.forecastWidget.description" = "Shows the next Sunrise or Sunset Forecast for the selected location. Available with Alpenglow Pro";
+"settings.widgets.outlookWidget.title" = "Outlook Widget";
+"settings.widgets.outlookWidget.description" = "Shows the Sunrise and Sunset Forecasts for the selected location up-to 4 days ahead. Available with Alpenglow Pro.";
+"settings.widgets.timesWidget.title" = "Times Widget";
+"settings.widgets.nextEventWidget.title" = "Next Event Widget";
+
 // App Color
 "customColor.navBar.title" = "Primaire App kleur";
 "customColor.default" = "Standaard";
@@ -201,6 +212,8 @@
 "pro.navBar.title" = "Ontgrendel Alpenglow Pro";
 "pro.legacyDescription" = "Je bent geweldig! Je hebt Alpenglow Pro al ontgrendeld toen je eerder een fooi gaf, je hebt alle onderstaande functies.\n\nAls je extra geweldig wilt zijn en Alpenglow verder wilt steunen, kun je ervoor kiezen om je te abonneren op een nieuw Alpenglow Pro-abonnement of levenslange betaling.";
 "pro.description" = "Alpenglow Pro ontgrendelt alles in Alpenglow Plus, samen met enkele extra functies die doorlopende serverkosten en extra SunsetWX-gebruik met zich meebrengen.";
+"pro.save" = "Save %ld%%";
+"pro.onetime" = "One-time";
 "pro.continue" = "Doorgaan met";
 "pro.information.subscription" = "Includes %@ free trial.\nCancel before %@ and nothing will be billed.";
 "pro.information.subscriptionDatePlaceholder" = "end of trial";
@@ -214,6 +227,8 @@
 "pro.forecastWidgets.description" = "Ontgrendel voorspelling widgets voor je beginscherm. Met de mogelijkheid voor het weergeven van widgets voor meerdere locaties.";
 "pro.map.title" = "Kwaliteitskaart";
 "pro.map.description" = "Bekijk een kaart van je lokale omgeving met de voorspelde kwaliteit zonsopgang en zonsondergang.";
+"pro.outlookWidget.title" = "Outlook Widget";
+"pro.outlookWidget.description" = "Glance the Sunrise & Sunset forecast for a location up-to 4 days into the future right on your Home Screen.";
 "pro.weather.title" = "Weersomstandigheden";
 "pro.weather.description" = "Bekijk weersomstandigheden samen met zonsopkomst en zonsondergang voorspellingen. Gebruik deze extra details om kwaliteitsvoorspellingen te valideren.";
 "pro.accuracy.title" = "Meer nauwkeurigheid";
@@ -260,3 +275,18 @@
 
 // Forecast Upgrade CTA
 "forecastUpgradeCTA" = "Kijk verder in de toekomst";
+
+// Widget Descriptions
+"widget.nextEvent.title" = "Next Event";
+"widget.nextEvent.description" = "Countdown to the next Sunrise, Sunset and Magic Hours.";
+"widget.times.title" = "Times";
+"widget.times.description" = "Sunrise, Sunset and Golden Hour Times.";
+"widget.forecast.title" = "Quality Forecasts";
+"widget.forecast.description" = "Sunrise & Sunset Quality Forecasts. Requires Alpenglow Pro.";
+"widget.outlook.title" = "Forecast Outlook";
+"widget.outlook.description" = "Sunrise & Sunset Forecast for up-to 4 days. Requires Alpenglow Pro.";
+
+// Widget States
+"widget.requiresPro" = "Requires Alpenglow Pro";
+"widget.requiresLocation" = "Open app & ensure location is enabled.";
+"widget.editLocation" = "Edit Widget to Select a Location";
