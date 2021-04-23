@@ -51,6 +51,7 @@
 "times.location.changeLocation" = "Modifier l'emplacement";
 "times.location.current" = "Emplacement actuel";
 "times.location.fetchingLocation" = "Chercher l'emplacement";
+"times.date.pick" = "Choisis une date";
 "times.date.previous" = "Date précédente";
 "times.date.next" = "Date suivante";
 "times.date.today" = "Aujourd'hui";
@@ -141,10 +142,12 @@
 "settings.support.pro" = "Alpenglow Pro";
 "settings.support.tip" = "Envoyer un pourboire supplémentaire";
 "settings.support.rate" = "Note dans l'App Store";
+"settings.extras.title" = "Extras";
+"settings.extras.widgets" = "Widgets écran d'accueil";
+"settings.extras.appleWatch" = "Apple Watch App";
 "settings.appearance.title" = "Apparence";
 "settings.appearance.color" = "Personnaliser les couleurs de l'application";
 "settings.appearance.icon" = "Changer l'icône de l'application";
-"settings.appearance.widgets" = "Widgets écran d'accueil";
 "settings.config.title" = "Configuration";
 "settings.config.deviceTimezone" = "Utiliser le fuseau horaire de l'appareil";
 "settings.social.title" = "Réseaux sociaux";
@@ -190,7 +193,8 @@
 
 // Plus
 "plus.navBar.title" = "Débloquer Alpenglow Plus";
-"plus.description" = "Alpenglow Plus déverrouille des fonctionnalités supplémentaires. Il suffit de laisser un pourboire et il sera débloqué pour vous remercier de votre soutien. .\n\n Vous pouvez débloquer encore plus de fonctionnalités avec Alpenglow Pro, y compris les notifications de prévisions.";
+"plus.description" = "Alpenglow Plus déverrouille des fonctionnalités supplémentaires. Il suffit de laisser un pourboire et il sera débloqué pour vous remercier de votre soutien. ";
+"plus.upsell" = "Vous pouvez débloquer encore plus de fonctionnalités avec Alpenglow Pro, y compris les notifications de prévisions.";
 "plus.future.title" = "Avoir des prévisions plus lointaines";
 "plus.future.description" = "Avec Alpenglow Plus, vous pouvez voir jusqu'à 4 jours dans le futur (par rapport à aujourd'hui et demain).";
 "plus.outlook.title" = "Outlook";
@@ -223,6 +227,8 @@
 "pro.period.lifetime" = "Lifetime";
 "pro.forecastNotifications.title" = "Notifications de prévisions*";
 "pro.forecastNotifications.description" = "Nous avons déjà tous raté un splendide lever ou un coucher de soleil. Recevez des notifications lorsque les prévisions pour votre emplacement dépassent un seuil que vous avez préalablement défini.";
+"pro.appleWatchComplications.title" = "Apple Watch Complications";
+"pro.appleWatchComplications.description" = "Add Forecast & Outlook Complications to your favorite Watch Face to see Sunrise and Sunset Forecasts right on your wrist.";
 "pro.forecastWidgets.title" = "Widgets de prévision";
 "pro.forecastWidgets.description" = "Déverrouillez les widgets de prévision pour votre écran d'accueil avec la possibilité d'afficher des widgets pour plusieurs emplacements.";
 "pro.map.title" = "Quality Map";
@@ -254,6 +260,19 @@
 "iap.restore" = "Restaurer les achats";
 "iap.restoring" = "Restauration";
 "iap.terms" = "Conditions d'utilisation";
+
+// Apple Watch
+"appleWatch.title" = "Alpenglow for Apple Watch";
+"appleWatch.description" = "Alpenglow is now available on Apple Watch, quickly access Sunrise & Sunset Forecasts as well as Sunrise, Sunset & Magic Hour Times for your current location.";
+"appleWatch.features.title" = "Also includes these features...";
+"appleWatch.timeComplications.title" = "Time Complications";
+"appleWatch.timeComplications.description" = "Add Sunrise, Sunset & Magic Hour Times to your favorite Watch Faces.";
+"appleWatch.outlookComplication.title" = "Outlook Complication";
+"appleWatch.outlookComplication.description" = "Glance the Sunrise & Sunset forecast for your location up-to 4 days into the future right on your Watch Face. Available with Alpengow Pro";
+"appleWatch.forecastComplications.title" = "Forecast Complications";
+"appleWatch.forecastComplications.description" = "View the Sunrise & Sunset Forecast right on your Apple Watch Face with Forecast Complications. Available with Alpengow Pro.";
+"appleWatch.shareComplications" = "Share your Apple Watch Face with Alpenglow and they may be featured in the app in the future.";
+"appleWatch.install" = "Install Alpenglow on your Apple Watch via the Watch app or via the App Store on your Apple Watch.";
 
 // Push Notifications
 "reminders.goldenHour.starting" = "L'heure dorée commence maintenant...";
@@ -290,3 +309,7 @@
 "widget.requiresPro" = "Requires Alpenglow Pro";
 "widget.requiresLocation" = "Open app & ensure location is enabled.";
 "widget.editLocation" = "Edit Widget to Select a Location";
+
+// Watch
+"watch.viewing" = "Viewing";
+"watch.forecasts" = "Forecasts";

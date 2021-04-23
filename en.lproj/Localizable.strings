@@ -51,6 +51,7 @@
 "times.location.changeLocation" = "Change Location";
 "times.location.current" = "Current Location";
 "times.location.fetchingLocation" = "Fetching Location";
+"times.date.pick" = "Pick a Date";
 "times.date.previous" = "Previous Date";
 "times.date.next" = "Next Date";
 "times.date.today" = "Today";
@@ -141,6 +142,9 @@
 "settings.support.pro" = "Alpenglow Pro";
 "settings.support.tip" = "Send an additional tip";
 "settings.support.rate" = "Rate Alpenglow on the App Store";
+"settings.extras.title" = "Extras";
+"settings.extras.widgets" = "Home Screen Widgets";
+"settings.extras.appleWatch" = "Apple Watch App";
 "settings.appearance.title" = "Appearance";
 "settings.appearance.color" = "Customize App Colors";
 "settings.appearance.icon" = "Change App Icon";
@@ -190,7 +194,8 @@
 
 // Plus
 "plus.navBar.title" = "Unlock Alpenglow Plus";
-"plus.description" = "Alpenglow Plus unlocks additional features. Just leave a tip and it'll be unlocked for you as a thank you for your support.\n\n You can unlock even more features with Alpenglow Pro, including forecast notifications.";
+"plus.description" = "Alpenglow Plus unlocks additional features. Just leave a tip and it'll be unlocked for you as a thank you for your support.";
+"plus.upsell" = "You can unlock even more features with Alpenglow Pro, including forecast notifications.";
 "plus.future.title" = "See further into the future";
 "plus.future.description" = "With Alpenglow Plus you can see up to 4 days into the future (vs today & tomorrow).";
 "plus.outlook.title" = "Outlook";
@@ -223,6 +228,8 @@
 "pro.period.lifetime" = "Lifetime";
 "pro.forecastNotifications.title" = "Forecast Notifications *";
 "pro.forecastNotifications.description" = "We've all missed an amazing sunrise or sunset. Receive notifications when the forecast for your location is above a threshold set by you.";
+"pro.appleWatchComplications.title" = "Apple Watch Complications";
+"pro.appleWatchComplications.description" = "Add Forecast & Outlook Complications to your favorite Watch Face to see Sunrise and Sunset Forecasts right on your wrist.";
 "pro.forecastWidgets.title" = "Forecast Widgets";
 "pro.forecastWidgets.description" = "Unlock Forecast Widgets for your Home Screen. With the ability to display widgets for multiple locations.";
 "pro.map.title" = "Quality Map";
@@ -255,6 +262,19 @@
 "iap.restoring" = "Restoring";
 "iap.terms" = "Terms of Use";
 
+// Apple Watch
+"appleWatch.title" = "Alpenglow for Apple Watch";
+"appleWatch.description" = "Alpenglow is now available on Apple Watch, quickly access Sunrise & Sunset Forecasts as well as Sunrise, Sunset & Magic Hour Times for your current location.";
+"appleWatch.features.title" = "Also includes these features...";
+"appleWatch.timeComplications.title" = "Time Complications";
+"appleWatch.timeComplications.description" = "Add Sunrise, Sunset & Magic Hour Times to your favorite Watch Faces.";
+"appleWatch.outlookComplication.title" = "Outlook Complication";
+"appleWatch.outlookComplication.description" = "Glance the Sunrise & Sunset forecast for your location up-to 4 days into the future right on your Watch Face. Available with Alpengow Pro";
+"appleWatch.forecastComplications.title" = "Forecast Complications";
+"appleWatch.forecastComplications.description" = "View the Sunrise & Sunset Forecast right on your Apple Watch Face with Forecast Complications. Available with Alpengow Pro.";
+"appleWatch.shareComplications" = "Share your Apple Watch Face with Alpenglow and they may be featured in the app in the future.";
+"appleWatch.install" = "Install Alpenglow on your Apple Watch via the Watch app or via the App Store on your Apple Watch.";
+
 // Push Notifications
 "reminders.goldenHour.starting" = "Golden hour is starting now...";
 "reminders.goldenHour.beginning" = "Golden hour is beginning now...";
@@ -285,3 +305,12 @@
 "widget.forecast.description" = "Sunrise & Sunset Quality Forecasts. Requires Alpenglow Pro.";
 "widget.outlook.title" = "Forecast Outlook";
 "widget.outlook.description" = "Sunrise & Sunset Forecast for up-to 4 days. Requires Alpenglow Pro.";
+
+// Widget States
+"widget.requiresPro" = "Requires Alpenglow Pro";
+"widget.requiresLocation" = "Open app & ensure location is enabled.";
+"widget.editLocation" = "Edit Widget to Select a Location";
+
+// Watch
+"watch.viewing" = "Viewing";
+"watch.forecasts" = "Forecasts";

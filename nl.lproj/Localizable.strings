@@ -51,6 +51,7 @@
 "times.location.changeLocation" = "Wijzig locatie";
 "times.location.current" = "Huidige Locatie";
 "times.location.fetchingLocation" = "Locatie ophalen";
+"times.date.pick" = "Kies een datum";
 "times.date.previous" = "Vorige dag";
 "times.date.next" = "Volgende dag";
 "times.date.today" = "Vandaag";
@@ -141,10 +142,12 @@
 "settings.support.pro" = "Alpenglow Pro";
 "settings.support.tip" = "Verstuur een extra donatie";
 "settings.support.rate" = "Beoordeel Alpenglow in de App Store";
+"settings.extras.title" = "Extras";
+"settings.extras.widgets" = "Beginscherm widgets";
+"settings.extras.appleWatch" = "Apple Watch App";
 "settings.appearance.title" = "Uiterlijk";
 "settings.appearance.color" = "App-kleuren aanpassen";
 "settings.appearance.icon" = "Wijzig App-icoon";
-"settings.appearance.widgets" = "Beginscherm widgets";
 "settings.config.title" = "Configuratie";
 "settings.config.deviceTimezone" = "Gebruik apparaat tijdzone";
 "settings.social.title" = "Social";
@@ -190,7 +193,8 @@
 
 // Plus
 "plus.navBar.title" = "Ontgrendel Alpenglow Plus";
-"plus.description" = "Alpenglow Plus ontgrendelt extra functies. Laat gewoon een fooi achter en deze wordt voor u ontgrendeld als dank voor uw steun.\n\n Je kan zelfs nog meer functies ontgrendelen met Alpenglow Pro, inclusief voorspellingsmeldingen.";
+"plus.description" = "Alpenglow Plus ontgrendelt extra functies. Laat gewoon een fooi achter en deze wordt voor u ontgrendeld als dank voor uw steun.";
+"plus.upsell" = "Je kan zelfs nog meer functies ontgrendelen met Alpenglow Pro, inclusief voorspellingsmeldingen.";
 "plus.future.title" = "Kijk verder in de toekomst";
 "plus.future.description" = "Met Alpenglow Plus kan je tot 4 dagen in de toekomst zien (tegenover vandaag & morgen).";
 "plus.outlook.title" = "Vooruitzicht";
@@ -223,6 +227,8 @@
 "pro.period.lifetime" = "Lifetime";
 "pro.forecastNotifications.title" = "Voorspellingsmeldingen *";
 "pro.forecastNotifications.description" = "We hebben allemaal weleens een geweldige zonsopgang of zonsondergang gemist. Ontvang meldingen wanneer de weersvoorspelling voor uw locatie een door jou ingestelde drempel overschrijdt.";
+"pro.appleWatchComplications.title" = "Apple Watch Complications";
+"pro.appleWatchComplications.description" = "Add Forecast & Outlook Complications to your favorite Watch Face to see Sunrise and Sunset Forecasts right on your wrist.";
 "pro.forecastWidgets.title" = "Voorspelling widgets";
 "pro.forecastWidgets.description" = "Ontgrendel voorspelling widgets voor je beginscherm. Met de mogelijkheid voor het weergeven van widgets voor meerdere locaties.";
 "pro.map.title" = "Kwaliteitskaart";
@@ -254,6 +260,19 @@
 "iap.restore" = "Aankopen herstellen";
 "iap.restoring" = "Herstellen";
 "iap.terms" = "Gebruiksvoorwaarden";
+
+// Apple Watch
+"appleWatch.title" = "Alpenglow for Apple Watch";
+"appleWatch.description" = "Alpenglow is now available on Apple Watch, quickly access Sunrise & Sunset Forecasts as well as Sunrise, Sunset & Magic Hour Times for your current location.";
+"appleWatch.features.title" = "Also includes these features...";
+"appleWatch.timeComplications.title" = "Time Complications";
+"appleWatch.timeComplications.description" = "Add Sunrise, Sunset & Magic Hour Times to your favorite Watch Faces.";
+"appleWatch.outlookComplication.title" = "Outlook Complication";
+"appleWatch.outlookComplication.description" = "Glance the Sunrise & Sunset forecast for your location up-to 4 days into the future right on your Watch Face. Available with Alpengow Pro";
+"appleWatch.forecastComplications.title" = "Forecast Complications";
+"appleWatch.forecastComplications.description" = "View the Sunrise & Sunset Forecast right on your Apple Watch Face with Forecast Complications. Available with Alpengow Pro.";
+"appleWatch.shareComplications" = "Share your Apple Watch Face with Alpenglow and they may be featured in the app in the future.";
+"appleWatch.install" = "Install Alpenglow on your Apple Watch via the Watch app or via the App Store on your Apple Watch.";
 
 // Push Notifications
 "reminders.goldenHour.starting" = "Gouden uur start nu...";
@@ -290,3 +309,7 @@
 "widget.requiresPro" = "Requires Alpenglow Pro";
 "widget.requiresLocation" = "Open app & ensure location is enabled.";
 "widget.editLocation" = "Edit Widget to Select a Location";
+
+// Watch
+"watch.viewing" = "Viewing";
+"watch.forecasts" = "Forecasts";

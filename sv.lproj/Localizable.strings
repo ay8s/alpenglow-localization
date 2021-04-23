@@ -1,0 +1,315 @@
+/*
+  Localizabe.strings
+  Alpenglow
+
+  Created by Andrew Yates on 2/13/19.
+  Copyright © 2019 Andrew Yates. All rights reserved.
+*/
+
+// Common
+"Whoops" = "Hoppsan";
+"Cancel" = "Avbryt";
+"Done" = "Klar";
+"Close" = "Stäng";
+"Got it!" = "Uppfattat!";
+"Fetching" = "Hämtar";
+"Creating" = "Skapar";
+"Retry" = "Försök igen";
+
+// Onboarding
+"onboarding.welcome.title" = "Välkommen";
+"onboarding.welcome.description" = "Missa aldrig en fantastisk gyllene timme igen.";
+"onboarding.welcome.getStarted" = "Kom igång";
+
+"onboarding.location.title" = "Platsbehörigheter";
+"onboarding.location.description" = "Din plats lagras bara någonsin på din enhet.\n\nDu kan också välja en plats manuellt för att bläddra bland tider och prognoser för andra platser.";
+"onboarding.location.allow" = "Tillåt platsbehörigheter";
+"onboarding.location.skip" = "Välj plats manuellt";
+
+"onboarding.notifications.title" = "Aktivera meddelanden";
+"onboarding.notifications.description" = "Få påminnelser för soluppgång, solnedgång och gyllene timmar. Aktivera aviseringar för att kunna få dessa aviseringar.\n\nDu kan justera dessa aviseringar när som helst.";
+"onboarding.notifications.allow" = "Aktivera meddelanden";
+"onboarding.notifications.skip" = "Aktivera senare";
+
+"onboarding.complete.title" = "Du är redo!";
+"onboarding.complete.description" = "Du är redo att se din soluppgångs- och solnedgångsprognos! \n\nLåt oss hoppas att det blir en bra en!";
+"onboarding.complete.button" = "Då kör vi!";
+
+"onboarding.error.location." = "Det gick inte att känna igen din plats.";
+"onboarding.error.notifications" = "Det verkar som att meddelandebehörigheter har nekats. Bevilja behörigheter inom Inställningar eller fortsätt utan meddelanden.";
+
+// Tabs
+"tabs.times" = "Tider";
+"tabs.outlook" = "Framtidsutsikt";
+"tabs.map" = "Karta";
+"tabs.notifications" = "Meddelanden";
+"tabs.settings" = "Inställningar";
+
+// Times View
+"times.location.fetching" = "Hämtar";
+"times.location.change" = "Ändra";
+"times.location.changeLocation" = "Ändra plats";
+"times.location.current" = "Nuvarande plats";
+"times.location.fetchingLocation" = "Hämtar plats";
+"times.date.pick" = "Välj ett datum";
+"times.date.previous" = "Tidigare datum";
+"times.date.next" = "Nästa datum";
+"times.date.today" = "Idag";
+"times.date.tomorrow" = "Imorgon";
+"times.date.yesterday" = "Igår";
+"times.date.datePicker" = "Visa tider för ...";
+"times.date.datePicker.today" = "Återgå till idag";
+"times.locationAlert.title" = "Ändra plats";
+"times.locationAlert.description" = "Vill du välja en ny plats eller använda din nuvarande plats?";
+"times.locationAlert.current" = "Använd nuvarande plats";
+"times.locationAlert.pick" = "Välj en plats";
+"times.noLocation.title" = "Plats hämtades inte";
+"times.noLocation.settings" = "Öppna Inställningar för att aktivera behörigheter";
+"times.noLocation.enable" = "Aktivera platsbehörigheter";
+"times.noLocation.select" = "Välj en manuell plats";
+
+// Predications
+"prediction.report.title" = "Hur ser det ut?";
+"prediction.report.button" = "Skicka in rapport";
+"prediction.report.description" = "Hjälp mig att förbättra kvalitetsprognoserna för soluppgångar och solnedgångar genom att dela en fältrapport.";
+"prediction.poor" = "Dåligt";
+"prediction.fair" = "Rimligt";
+"prediction.good" = "Bra";
+"prediction.great" = "Utmärkt";
+"prediction.error" = "Det gick inte att hämta prognosen";
+"prediction.share" = "Dela prognos";
+"prediction.shareString" = "%@ beräknas vara %@ (%ld%%) om %@ vid %@.";
+"prediction.shareVia" = "via";
+"events.blueHour" = "Blå timmen";
+"events.goldenHour" = "Gyllene timmen";
+"events.sunrise" = "Soluppgång";
+"events.daytime" = "Dagtid";
+"events.sunset" = "Solnedgång";
+
+// Location
+"location.navBar.title" = "Sök";
+"location.placeholder" = "Sök efter plats";
+"location.results" = "Resultat";
+"location.noResults" = "Inget resultat";
+"location.recent" = "Senaste";
+
+// Field Report
+"report.navBar.title" = "Fältrapport";
+"report.navBar.cancel" = "Avbryt";
+"report.navBar.submit" = "Skicka in";
+"report.description" = "Du kan förbättra Alpenglow genom att skicka in en fältrapport. Dessa kommer sedan att användas för att göra prognoser mer precisa med tiden.\n\nNär du skickar in en fältrapport lagrar vi prognosen, din poäng och din ungefärliga plats.";
+"report.forecastedScore" = "Prognostiserad poäng";
+"report.actualScore" = "Faktisk poäng";
+"report.changePhoto" = "Ändra foto";
+"report.selectPhoto" = "Välj ett foto";
+"report.allowShare" = "Tillåt Alpenglow att dela foto";
+"report.instagramUsername" = "Instagram användarnamn";
+"report.photo" = "Vänligen bifoga ett foto att bifoga till din fältrapport.";
+
+// Map
+"map.unlock" = "Lås upp prognoskartan\nmed Alpenglow Pro";
+"map.segment.nextSunrise" = "Nästa soluppgång";
+"map.segment.nextSunset" = "Nästa solnedgång";
+"map.about" = "Om";
+
+// Notifications
+"notifications.navBar.title" = "Meddelanden";
+"notifications.denied" = "Meddelanden är inaktiverade";
+"notifications.enable" = "Aktivera push-meddelanden";
+"notifications.reminders.title" = "Påminnelser";
+"notifications.reminders.morningGoldenHour" = "Gyllene timme (morgon)";
+"notifications.reminders.sunrise" = "Soluppgång";
+"notifications.reminders.eveningGoldenHour" = "Gyllene timme (kväll)";
+"notifications.reminders.sunset" = "Solnedgång";
+"notifications.reminderOffset.title" = "Påminnelse offset";
+"notifications.reminderOffset.0mins" = "Vid tidpunkten för händelsen";
+"notifications.reminderOffset.15mins" = "15 minuter innan";
+"notifications.reminderOffset.30mins" = "30 minuter innan";
+"notifications.reminderOffset.60mins" = "1 timme innan";
+"notifications.reminderOffset.120mins" = "2 timmar innan";
+"notifications.reminderOffset.180mins" = "3 timmar innan";
+"notifications.reminderOffset.360mins" = "6 timmar innan";
+"notifications.reminderOffset.540mins" = "9 timmar innan";
+"notifications.forecast.title" = "Prognosmeddelanden";
+"notifications.forecast.threshold" = "Tröskel";
+"notifications.forecast.unlock" = "Lås upp prognosmeddelanden\nmed Alpenglow Pro";
+"notifications.forecast.offset" = "Prognos-offset";
+
+// Settings
+"settings.navBar.title" = "Inställningar";
+"settings.support.title" = "Support Alpenglow";
+"settings.support.plus" = "Alpenglow Plus";
+"settings.support.pro" = "Alpenglow Pro";
+"settings.support.tip" = "Skicka ett ytterligare bidrag";
+"settings.support.rate" = "Betygsätt i App Store";
+"settings.extras.title" = "Extras";
+"settings.extras.widgets" = "Startskärms-widgets";
+"settings.extras.appleWatch" = "Apple Watch App";
+"settings.appearance.title" = "Utseende";
+"settings.appearance.color" = "Anpassa appfärger";
+"settings.appearance.icon" = "Ändra appikon";
+"settings.config.title" = "Konfiguration";
+"settings.config.deviceTimezone" = "Använd enhetens tidszon";
+"settings.social.title" = "Socialt";
+"settings.social.reddit" = "Alpenglow Reddit Community";
+"settings.social.instagram" = "Följ Alpenglow på Instagram";
+"settings.social.twitter" = "Följ Alpenglow på Twitter";
+"settings.social.facebook" = "Följ Alpenglow på Facebook";
+"settings.social.twitterPersonal" = "Följ @ay8s på Twitter";
+"settings.translate.title" = "Översätt";
+"settings.translate.help" = "Hjälp med att översätta Alpenglow";
+"settings.feedback.title" = "Hjälp till att göra Alpenglow bättre";
+"settings.feedback.send" = "Skicka feedback";
+"settings.feedbackAlert.title" = "Feedback";
+"settings.feedbackAlert.description" = "Skicka ett mejl till feedback@alpenglowapp.com och gör Alpenglow ännu bättre.";
+"settings.privacyPolicy" = "Integritetspolicy";
+"settings.whatsNew" = "Senaste nytt";
+"settings.merch" = "Alpenglow merch";
+
+// Widgets
+"settings.widgets.intro" = "För att lägga till en widget på din startskärm eller i dagsvyn, gå till din startskärm eller dagsvyn och tryck sedan på och håll ned en widget eller ett tomt område tills ikoner/widgets börjar skaka. Tryck sedan på Lägg till-knappen och hitta Alpenglow i listan.";
+"settings.widgets.forecastWidget.title" = "Prognos-widget";
+"settings.widgets.forecastWidget.description" = "Visar nästa soluppgångs- eller solnedgångsprognos för den valda platsen. Finns tillgängligt med Alpenglow Pro";
+"settings.widgets.outlookWidget.title" = "Framtidsutsikt-widget";
+"settings.widgets.outlookWidget.description" = "Visar soluppgångs- och solnedgångsprognoser för den valda platsen upp till fyra dagar framåt. Finns tillgängligt med Alpenglow Pro";
+"settings.widgets.timesWidget.title" = "Tid-widget";
+"settings.widgets.nextEventWidget.title" = "Nästa händelse-widget";
+
+// App Color
+"customColor.navBar.title" = "Primär appfärg";
+"customColor.default" = "Standard";
+"customColor.classic" = "Klassisk";
+"customColor.daytime" = "Dagtid";
+"customColor.silhouette" = "Siluett";
+"customColor.dawn" = "Gryning";
+
+// App Icons
+"appIcon.navBar.title" = "Ändra appikon";
+"appIcon.default" = "Standard";
+"appIcon.classic" = "Klassisk";
+"appIcon.daytime" = "Dagtid";
+"appIcon.silhouette" = "Siluett";
+"appIcon.dawn" = "Gryning";
+
+// Plus
+"plus.navBar.title" = "Lås upp Alpenglow Plus";
+"plus.description" = "Alpenglow Plus låser upp ytterligare funktioner. Lämna bara ett bidrag så låses det upp för dig som ett tack för ditt stöd.";
+"plus.upsell" = "Du kan låsa upp ännu fler funktioner med Alpenglow Pro, inklusive prognosmeddelanden.";
+"plus.future.title" = "Se längre in i framtiden";
+"plus.future.description" = "Med Alpenglow Plus kan du se upp till fyra dagar i framtiden (gentemot idag och imorgon).";
+"plus.outlook.title" = "Framtidsutsikt";
+"plus.outlook.description" = "Med möjligheten att se längre in i framtiden kommer du också att kunna få en blick över alla tillgängliga kvalitetsprognoser på Framtidsutsikts-fliken. Framtidsutsikt-widget finns med Alpenglow Pro.";
+"plus.accuracy.title" = "Ökad noggrannhet";
+"plus.accuracy.description" = "Prognoser hämtas med en koordinat närmare din exakta plats.";
+"plus.elevation.title" = "Platshöjd";
+"plus.elevation.description" = "Platshöjd kommer att hämtas och användas för att ge mer exakta tider för soluppgång, solnedgång och gyllene timmen-tider.";
+"plus.recent.title" = "Senaste platser";
+"plus.recent.description" = "Du kommer enkelt att komma åt dina fem senaste platser inom Platsväljaren, så att du snabbt kan kontrollera prognosen på dina favoritplatser.";
+"plus.customization.title" = "Anpassning";
+"plus.customization.description" = "Justera appens färgpalett och välj bland olika versioner av appikonen.";
+"plus.support.title" = "Stöd en indieutvecklare";
+"plus.support.description" = "Alpenglow är ett passionerat projekt av en enda utvecklare som älskar att skriva kod och titta på fantastiska solnedgångar. Ditt stöd gör inte bara att jag kan fortsätta hålla igång Alpenglow utan också kan fortsätta göra det bättre.";
+"plus.unlocked" = "Du har låst upp Alpenglow Plus";
+"plus.pro" = "Visa Alpenglow Pro";
+
+// Pro
+"pro.navBar.title" = "Lås upp Alpenglow Pro";
+"pro.legacyDescription" = "Du är fantastisk! Du har redan låst upp Alpenglow Pro när gav ditt bidrag tidigare, du har alla funktioner som listas nedan.\n\nOm du vill vara extra fantastisk och stödja Alpenglow ännu mer kan du välja att prenumerera på en ny Alpenglow Pro-prenumeration eller livstidsbetalning.";
+"pro.description" = "Alpenglow Pro låser upp allt i Alpenglow Plus, tillsammans med några extra funktioner som medför pågående serverkostnader och ytterligare SunsetWX-användning.";
+"pro.save" = "Spara %ld%%";
+"pro.onetime" = "En gång";
+"pro.continue" = "Fortsätt";
+"pro.information.subscription" = "Innehåller %@ gratis testperiod.\nAvbryt före %@ och inget faktureras.";
+"pro.information.subscriptionDatePlaceholder" = "prövningens slut";
+"pro.information.lifetime" = "Engångsköp Ingen återkommande prenumeration.\n";
+"pro.period.monthly" = "Månadsvis";
+"pro.period.yearly" = "Årvis";
+"pro.period.lifetime" = "Livstid";
+"pro.forecastNotifications.title" = "Prognosmeddelanden *";
+"pro.forecastNotifications.description" = "Vi har alla missat en fantastisk soluppgång eller solnedgång. Få meddelanden när prognosen för din plats ligger över ett tröskelvärde som du har ställt in.";
+"pro.appleWatchComplications.title" = "Apple Watch Complications";
+"pro.appleWatchComplications.description" = "Add Forecast & Outlook Complications to your favorite Watch Face to see Sunrise and Sunset Forecasts right on your wrist.";
+"pro.forecastWidgets.title" = "Prognos-widgets";
+"pro.forecastWidgets.description" = "Lås upp prognos-widgets för din startskärm. Med möjligheten att visa widgets för flera platser.";
+"pro.map.title" = "Kvalitetskarta";
+"pro.map.description" = "Visa en karta över ditt lokala område som visar den förutsedda kvaliteten för soluppgång och solnedgång.";
+"pro.outlookWidget.title" = "Framtidsutsikt-widget";
+"pro.outlookWidget.description" = "Se prognosen för soluppgången och solnedgången för en plats upp till fyra dagar i framtiden direkt på din startskärm.";
+"pro.weather.title" = "Väderförhållanden";
+"pro.weather.description" = "Se väderförhållanden tillsammans med soluppgångs- och solnedgångsprognoser. Använd dessa extra detaljer för att validera kvalitetsprognoser.";
+"pro.accuracy.title" = "Mer noggrannhet";
+"pro.accuracy.description" = "Alpenglow använder en ungefärlig plats för att hämta prognoser. Med Alpenglow Pro kommer appen att använda din exakta plats för att hämta prognoserna.";
+"pro.plusFeatures" = "Dessutom dessa Alpenglow Plus-funktioner ...";
+"pro.forecastNotifications.disclaimer1" = "* Alpenglow lagrar aldrig din plats på en server. Så alla meddelanden är schemalagda på din enhet.";
+"pro.forecastNotifications.disclaimer2" = "* I vissa fall kanske iOS inte väcker Alpenglow i bakgrunden så att appen kan schemalägga prognosmeddelanden. Lågt batteri, batterisparläge och annat kan påverka om iOS tillåter Alpenglow att hämta prognosen.";
+"pro.blurb" = "Betalning kommer att debiteras från ditt Apple ID-konto vid köpbekräftelsen. Prenumerationen förnyas automatiskt såvida den inte avbryts minst 24 timmar före slutet av den aktuella perioden. Ditt konto debiteras för nästa period inom 24 timmar före utgången av den aktuella perioden. Du kan hantera och avbryta dina prenumerationer genom att gå till dina kontoinställningar i App Store efter köp.\n\nDu kan hantera och avbryta dina prenumerationer i App Store-kontoinställningarna efter köp.";
+
+// Tip
+"tipJar.navBar.title" = "Bidragsburk";
+"tipJar.description" = "Tack för att du redan stöder\n\nAlpenglow. Om du verkligen gillar appen och vill utöka ditt stöd, kan ytterligare bidrag hjälpa till att täcka kostnader och fortsatt utveckling.";
+
+// IAPS
+"iap.sweet" = "Godisstorleks-bidrag";
+"iap.snack" = "Mellanmålsstorleks-bidrag";
+"iap.coffee" = "Kaffestorleks-bidrag";
+"iap.lunch" = "Lunchstorleks-bidrag";
+"iap.dinner" = "Middagsstorleks-bidrag";
+"iap.errorRetrieving" = "Det går inte att hämta köp i appen";
+"iap.purchasing" = "Köper";
+"iap.subscribe" = "Prenumerera på";
+"iap.restore" = "Återställ köp";
+"iap.restoring" = "Återställer";
+"iap.terms" = "Användarvillkor";
+
+// Apple Watch
+"appleWatch.title" = "Alpenglow for Apple Watch";
+"appleWatch.description" = "Alpenglow is now available on Apple Watch, quickly access Sunrise & Sunset Forecasts as well as Sunrise, Sunset & Magic Hour Times for your current location.";
+"appleWatch.features.title" = "Also includes these features...";
+"appleWatch.timeComplications.title" = "Time Complications";
+"appleWatch.timeComplications.description" = "Add Sunrise, Sunset & Magic Hour Times to your favorite Watch Faces.";
+"appleWatch.outlookComplication.title" = "Outlook Complication";
+"appleWatch.outlookComplication.description" = "Glance the Sunrise & Sunset forecast for your location up-to 4 days into the future right on your Watch Face. Available with Alpengow Pro";
+"appleWatch.forecastComplications.title" = "Forecast Complications";
+"appleWatch.forecastComplications.description" = "View the Sunrise & Sunset Forecast right on your Apple Watch Face with Forecast Complications. Available with Alpengow Pro.";
+"appleWatch.shareComplications" = "Share your Apple Watch Face with Alpenglow and they may be featured in the app in the future.";
+"appleWatch.install" = "Install Alpenglow on your Apple Watch via the Watch app or via the App Store on your Apple Watch.";
+
+// Push Notifications
+"reminders.goldenHour.starting" = "Gyllene timmen börjar nu ...";
+"reminders.goldenHour.beginning" = "Gyllene timmen börjar nu ...";
+"reminders.goldenHour.relative" = "Gyllene timmen är %@ kl %@.";
+"reminders.sunrise.rising" = "Solen går upp nu. <Øß";
+"reminders.sunrise.relative" = "Soluppgång är %@ kl %@. <Øß";
+"reminders.sunset.setting" = "Solen går ner nu. <Øß";
+"reminders.sunset.relative" = "Solnedgången är %@ kl %@. <Øß";
+
+// Forecast Notifications
+"forecastNotification.text" = "%@ förutses vara %@ (%@%%%) om %@.";
+
+// Shares
+"share.fetching" = "Hämtar delning";
+"share.fetchFailed" = "Det gick inte att hämta delad prognos";
+"share.eventOccurred" = "Denna %@ har redan hänt.";
+"share.checkYours" = "Kontrollera din prognos för idag";
+
+// Forecast Upgrade CTA
+"forecastUpgradeCTA" = "Se längre in i framtiden";
+
+// Widget Descriptions
+"widget.nextEvent.title" = "Nästa händelse";
+"widget.nextEvent.description" = "Nedräkning till nästa soluppgång, solnedgång och magiska timmar.";
+"widget.times.title" = "Tider";
+"widget.times.description" = "Soluppgång, solnedgång och tider för gyllene timmar.";
+"widget.forecast.title" = "Kvalitetsprognoser";
+"widget.forecast.description" = "Kvalitetsprognoser för soluppgång och solnedgång. Kräver Alpenglow Pro.";
+"widget.outlook.title" = "Prognosutsikter";
+"widget.outlook.description" = "Prognos för soluppgång och solnedgång i upp till 4 dagar. Kräver Alpenglow Pro.";
+
+// Widget States
+"widget.requiresPro" = "Requires Alpenglow Pro";
+"widget.requiresLocation" = "Open app & ensure location is enabled.";
+"widget.editLocation" = "Edit Widget to Select a Location";
+
+// Watch
+"watch.viewing" = "Viewing";
+"watch.forecasts" = "Forecasts";

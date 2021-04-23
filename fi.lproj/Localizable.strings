@@ -1,0 +1,316 @@
+/*
+  Localizabe.strings
+  Alpenglow
+
+  Created by Andrew Yates on 2/13/19.
+  Copyright © 2019 Andrew Yates. All rights reserved.
+*/
+
+// Common
+"Whoops" = "Hups";
+"Cancel" = "Peruuta";
+"Done" = "Valmis";
+"Close" = "Sulje";
+"Got it!" = "Selvä homma!";
+"Fetching" = "Haetaan";
+"Creating" = "Luodaan";
+"Retry" = "Yritä uudelleen";
+
+// Onboarding
+"onboarding.welcome.title" = "Tervetuloa";
+"onboarding.welcome.description" = "Älä koskaan enää jää paitsi upeasta kultaisesta hetkestä.";
+"onboarding.welcome.getStarted" = "Aloita";
+
+"onboarding.location.title" = "Sijainnin käyttöluvat";
+"onboarding.location.description" = "Sijaintisi tallennetaan ainoastaan laitteellesi.\n\nVoit myös manuaalisesti valita sijainnin ja selata muiden paikkojen ajankohtia ja sääennusteita.";
+"onboarding.location.allow" = "Salli sijainnin käyttöluvat";
+"onboarding.location.skip" = "Valitse sijainti manuaalisesti";
+
+"onboarding.notifications.title" = "Ota ilmoitukset käyttöön";
+"onboarding.notifications.description" = "Saa muistutuksia auringonnousuista, auringonlaskuista ja kultaisista hetkistä. Ota ilmoitukset käyttöön, jotta voit saada näitä ilmoituksia.\n\nVoit säätää näitä ilmoituksia milloin tahansa.";
+"onboarding.notifications.allow" = "Ota ilmoitukset käyttöön";
+"onboarding.notifications.skip" = "Ota käyttöön myöhemmin";
+
+"onboarding.complete.title" = "Kaikki valmista!";
+"onboarding.complete.description" = "Olet valmis katsomaan auringonnousujen ja auringonlaskujen ennusteesi! \n\nToivottavasti se on hyvä!";
+"onboarding.complete.button" = "Aloitetaan!";
+
+"onboarding.error.location." = "Sijaintiasi ei voitu määrittää.";
+"onboarding.error.notifications" = "Näyttää siltä, että ilmoitusten käyttölupaa ei ole myönnetty. Myönnä käyttöoikeudet asetuksista tai jatka ilman ilmoituksia.";
+
+// Tabs
+"tabs.times" = "Kellonajat";
+"tabs.outlook" = "Tulevat ennusteet";
+"tabs.map" = "Kartta";
+"tabs.notifications" = "Ilmoitukset";
+"tabs.settings" = "Asetukset";
+
+// Times View
+"times.location.fetching" = "Haetaan";
+"times.location.change" = "Muuta";
+"times.location.changeLocation" = "Vaihda sijaintia";
+"times.location.current" = "Nykyinen sijainti";
+"times.location.fetchingLocation" = "Haetaan sijaintia";
+"times.date.pick" = "Valitse päivämäärä";
+"times.date.previous" = "Edellinen päivä";
+"times.date.next" = "Seuraava päivä";
+"times.date.today" = "Tänään";
+"times.date.tomorrow" = "Huomenna";
+"times.date.yesterday" = "Eilen";
+"times.date.datePicker" = "Näytä kellonajat kohteelle...";
+"times.date.datePicker.today" = "Palaa tähän päivään";
+"times.locationAlert.title" = "Vaihda sijaintia";
+"times.locationAlert.description" = "Haluatko valita uuden sijainnin vai käyttää nykyistä sijaintia?";
+"times.locationAlert.current" = "Käytä nykyistä sijaintia";
+"times.locationAlert.pick" = "Valitse sijainti";
+"times.noLocation.title" = "Sijaintia ei voitu hakea";
+"times.noLocation.settings" = "Avaa asetukset antaaksesi käyttöoikeudet";
+"times.noLocation.enable" = "Ota sijainnin käyttöluvat käyttöön";
+"times.noLocation.select" = "Valitse manuaalinen sijainti";
+
+// Predications
+"prediction.report.title" = "Miltä näyttää?";
+"prediction.report.button" = "Lähetä ilmoitus";
+"prediction.report.description" = "Jaa kenttäraportti ja auta parantamaan auringonnousun ja auringonlaskun laadun ennusteita.";
+"prediction.poor" = "Huono";
+"prediction.fair" = "Melko hyvä";
+"prediction.good" = "Hyvä";
+"prediction.great" = "Erinomainen";
+"prediction.error" = "Ennustetta ei voitu hakea";
+"prediction.share" = "Jaa ennuste";
+"prediction.shareString" = "%@n ennustetaan olevan %@ (%ld%%) sijainnissa %@ klo %@.";
+"prediction.shareVia" = "kautta:";
+"events.blueHour" = "Sininen hetki";
+"events.goldenHour" = "Kultainen hetki";
+"events.sunrise" = "Auringonnousu";
+"events.daytime" = "Päivä";
+"events.sunset" = "Auringonlasku";
+
+// Location
+"location.navBar.title" = "Haku";
+"location.placeholder" = "Hae sijaintia";
+"location.results" = "Tulokset";
+"location.noResults" = "Ei tuloksia";
+"location.recent" = "Viimeisimmät";
+
+// Field Report
+"report.navBar.title" = "Kenttäraportti";
+"report.navBar.cancel" = "Peruuta";
+"report.navBar.submit" = "Lähetä";
+"report.description" = "Voit auttaa parantamaan Alpenglowta lähettämällä kenttäraportin. Niitä käytetään ennusteiden tarkentamiseksi ajan myötä.\n\nKun lähetät kenttäraportin, tallennamme ennusteen, antamasi pisteet ja likimääräisen sijaintisi.";
+"report.forecastedScore" = "Ennustetut pisteet";
+"report.actualScore" = "Todelliset pisteet";
+"report.changePhoto" = "Vaihda valokuva";
+"report.selectPhoto" = "Valitse valokuva";
+"report.allowShare" = "Anna Alpenglowille lupa jakaa valokuva";
+"report.instagramUsername" = "Instagram-käyttäjätunnus";
+"report.photo" = "Liitä valokuva kenttäraporttiin.";
+
+// Map
+"map.unlock" = "Saat ennustekartan käyttöösi\nAlpenglow Prolla";
+"map.segment.nextSunrise" = "Seuraava auringonnousu";
+"map.segment.nextSunset" = "Seuraava auringonlasku";
+"map.about" = "Tietoa sovelluksesta";
+
+// Notifications
+"notifications.navBar.title" = "Ilmoitukset";
+"notifications.denied" = "Ilmoitukset eivät ole käytössä";
+"notifications.enable" = "Ota push-ilmoitukset käyttöön";
+"notifications.reminders.title" = "Muistutukset";
+"notifications.reminders.morningGoldenHour" = "Kultainen hetki (aamu)";
+"notifications.reminders.sunrise" = "Auringonnousu";
+"notifications.reminders.eveningGoldenHour" = "Kultainen hetki (ilta)";
+"notifications.reminders.sunset" = "Auringonlasku";
+"notifications.reminderOffset.title" = "Muistutuksen ajankohta";
+"notifications.reminderOffset.0mins" = "Tapahtuman aikana";
+"notifications.reminderOffset.15mins" = "15 minuuttia etukäteen";
+"notifications.reminderOffset.30mins" = "30 minuuttia etukäteen";
+"notifications.reminderOffset.60mins" = "1 tunti etukäteen";
+"notifications.reminderOffset.120mins" = "2 tuntia etukäteen";
+"notifications.reminderOffset.180mins" = "3 tuntia etukäteen";
+"notifications.reminderOffset.360mins" = "6 tuntia etukäteen";
+"notifications.reminderOffset.540mins" = "9 tuntia etukäteen";
+"notifications.forecast.title" = "Ennusteilmoitukset";
+"notifications.forecast.threshold" = "Alaraja";
+"notifications.forecast.unlock" = "Saat ennusteilmoitukset käyttöösi\nAlpenglow Prolla";
+"notifications.forecast.offset" = "Ennusteen ajankohta";
+
+// Settings
+"settings.navBar.title" = "Asetukset";
+"settings.support.title" = "Tue Alpenglowia";
+"settings.support.plus" = "Alpenglow Plus";
+"settings.support.pro" = "Alpenglow Pro";
+"settings.support.tip" = "Jätä lisätippiä";
+"settings.support.rate" = "Arvostele Alpenglow App Storessa";
+"settings.extras.title" = "Extras";
+"settings.extras.widgets" = "Aloitusnäytön pienoisohjelmat";
+"settings.extras.widgets" = "Aloitusnäytön pienoisohjelmat";
+"settings.extras.appleWatch" = "Apple Watch App";
+"settings.appearance.title" = "Ulkoasu";
+"settings.appearance.color" = "Muokkaa sovelluksen värejä";
+"settings.appearance.icon" = "Vaihda sovelluskuvaketta";
+"settings.config.title" = "Konfigurointi";
+"settings.config.deviceTimezone" = "Käytä laitteen aikavyöhykettä";
+"settings.social.title" = "Sosiaaliset ominaisuudet";
+"settings.social.reddit" = "Alpenglowin Reddit -yhteisö";
+"settings.social.instagram" = "Seuraa Alpenglowia Instagramissa";
+"settings.social.twitter" = "Seuraa Alpenglowia Twitterissä";
+"settings.social.facebook" = "Seuraa Alpenglowia Facebookissa";
+"settings.social.twitterPersonal" = "Seuraa käyttäjää @ay8s Twitterissä";
+"settings.translate.title" = "Käännä";
+"settings.translate.help" = "Auta kääntämään Alpenglow";
+"settings.feedback.title" = "Auta tekemään Alpenglowsta parempi";
+"settings.feedback.send" = "Lähetä palautetta";
+"settings.feedbackAlert.title" = "Palaute";
+"settings.feedbackAlert.description" = "Lähetä minulle sähköpostia osoitteeseen feedback@alpenglowapp.com. Tehdään Alpenglowsta yhdessä entistä parempi.";
+"settings.privacyPolicy" = "Tietosuojakäytäntö";
+"settings.whatsNew" = "Uutta";
+"settings.merch" = "Alpenglow-tuotteet";
+
+// Widgets
+"settings.widgets.intro" = "Voit lisätä pienoisohjelman aloitusnäyttöön tai Tänään-näkymään siirtymällä aloitusnäyttöön tai Tänään-näkymään ja napauttamalla ja pitämällä sormea pohjassa pienoisohjelman tai tyhjän alueen kohdalla, kunnes kuvakkeet/pienoisohjelmat alkavat heilua. Napauta sitten Lisää-painiketta ja etsi Alpenglow luettelosta.";
+"settings.widgets.forecastWidget.title" = "Ennuste-pienoisohjelma";
+"settings.widgets.forecastWidget.description" = "Näyttää seuraavan auringonnousun tai auringonlaskun ennusteen valitulle sijainnille. Saatavana Alpenglow Pron kautta";
+"settings.widgets.outlookWidget.title" = "Tulevat ennusteet -pienoisohjelma";
+"settings.widgets.outlookWidget.description" = "Näyttää auringonnousun ja auringonlaskun ennusteet valitussa sijannissa jopa 4:lle seuraavalle päivälle. Saatavana Alpenglow Pron kautta.";
+"settings.widgets.timesWidget.title" = "Ajankohdat-pienoisohjelma";
+"settings.widgets.nextEventWidget.title" = "Seuraava tapahtuma -pienoisohjelma";
+
+// App Color
+"customColor.navBar.title" = "Sovelluksen ensisijainen väri";
+"customColor.default" = "Oletusarvo";
+"customColor.classic" = "Klassinen";
+"customColor.daytime" = "Päivä";
+"customColor.silhouette" = "Siluetti";
+"customColor.dawn" = "Aamurusko";
+
+// App Icons
+"appIcon.navBar.title" = "Vaihda sovelluskuvaketta";
+"appIcon.default" = "Oletusarvo";
+"appIcon.classic" = "Klassinen";
+"appIcon.daytime" = "Päivä";
+"appIcon.silhouette" = "Siluetti";
+"appIcon.dawn" = "Aamurusko";
+
+// Plus
+"plus.navBar.title" = "Ota käyttöön Alpenglow Plus";
+"plus.description" = "Alpenglow Plus avaa lisäominaisuuksia. Pientä tippiä vastaan saat sen käyttöösi kiitokseksi tuestasi.";
+"plus.upsell" = "Alpenglow Prolla voit saada käyttöösi vielä enemmän ominaisuuksia, mukaan lukien ennusteilmoitukset.";
+"plus.future.title" = "Katso kauemmas tulevaisuuteen";
+"plus.future.description" = "Alpenglow Plus:n avulla saat ennusteen jopa 4:lle seuraavalle päivälle (pelkän tämän päivän ja huomisen sijaan).";
+"plus.outlook.title" = "Tulevat ennusteet";
+"plus.outlook.description" = "Kun pystyt näkemään ennusteen pidemmälle tulevaan, voit myös tarkistaa kaikki saatavilla olevat laatuennusteet tulevien ennusteiden välilehdeltä. Tulevien ennusteiden pienoissovellus on saatavana Alpenglow Pron kautta.";
+"plus.accuracy.title" = "Parempi tarkkuus";
+"plus.accuracy.description" = "Ennusteet haetaan käyttämällä koordinaattia, joka on lähempänä tarkkaa sijaintiasi.";
+"plus.elevation.title" = "Sijainnin korkeus";
+"plus.elevation.description" = "Sijainnin korkeus haetaan ja sitä käytetään antamaan tarkemmat kellonajat auringonnousun, auringonlaskun ja kultaisen hetken ajankohdille.";
+"plus.recent.title" = "Viimeisimmät sijainnit";
+"plus.recent.description" = "Pääset helposti käsiksi viiteen viimeksi käyttämääsi sijaintiin sijaintivalikon kautta, minkä ansiosta voit nopeasti tarkistaa suosikkipaikkojesi ennusteet.";
+"plus.customization.title" = "Mukauttaminen";
+"plus.customization.description" = "Säädä sovelluksen värimaailmaa ja valitse sovelluskuvakkeen eri versioista mieleisesi.";
+"plus.support.title" = "Tue Indie-kehittäjää";
+"plus.support.description" = "Alpenglow on yhden koodin kirjoittamista ja upeiden auringonlaskujen katselemista rakastavan kehittäjän intohimoinen projekti. Tukesi avulla voin paitsi ylläpitää Alpenglowta, myös kehittää sitä paremmaksi.";
+"plus.unlocked" = "Olet saanut käyttöösi Alpenglow Plus:n";
+"plus.pro" = "Näytä Alpenglow Pro";
+
+// Pro
+"pro.navBar.title" = "Ota käyttöön Alpenglow Pro";
+"pro.legacyDescription" = "Olet mahtava! Olen jo saanut käyttöösi Alpenglow Pron kun viimeksi jätit tippiä ja käytössäsi on kaikki alla listatut ominaisuudet.\n\nJos haluat olla supermahtava ja tukea Alpenglowta vielä lisää, voit halutessasi ryhtyä tilaamaan uutta Alpenglow Pro -tilausta tai ryhtyä säännölliseksi lahjoittajaksi.";
+"pro.description" = "Alpenglow Prolla saat käyttöösi kaiken Alpenglow Plus:n sisällön sekä joitain lisäominaisuuksia, joista aiheutuu jatkuvia palvelinkustannuksia ja SunsetWX:n lisäkäyttöä.";
+"pro.save" = "Säästä % ld%%";
+"pro.onetime" = "Kertaluontoinen";
+"pro.continue" = "Jatka";
+"pro.information.subscription" = "Sisältää %@ ilmaisen kokeilujakson.\nJos peruutat tilauksen %@ mennessä, mitään ei laskuteta.";
+"pro.information.subscriptionDatePlaceholder" = "kokeilujakson päättyminen";
+"pro.information.lifetime" = "Kertaluonteinen ostos. Ei jatkuvaa tilausta.\n";
+"pro.period.monthly" = "Kuukausittain";
+"pro.period.yearly" = "Vuosittain";
+"pro.period.lifetime" = "Elinikäinen";
+"pro.forecastNotifications.title" = "Ennusteilmoitukset *";
+"pro.forecastNotifications.description" = "Olemme kaikki kaivanneet upeaa auringonnousua tai auringonlaskua. Vastaanota ilmoituksia, kun sijaintisi ennuste ylittää asettamasi kynnysarvon.";
+"pro.appleWatchComplications.title" = "Apple Watch Complications";
+"pro.appleWatchComplications.description" = "Add Forecast & Outlook Complications to your favorite Watch Face to see Sunrise and Sunset Forecasts right on your wrist.";
+"pro.forecastWidgets.title" = "Ennuste-pienoisohjelmat";
+"pro.forecastWidgets.description" = "Ota ennuste-pienoisohjelmat käyttöösi aloitusnäytöllesi. Mahdollisuus näyttää useiden sijaintien tiedot pienoisohjelmissa.";
+"pro.map.title" = "Laatukartta";
+"pro.map.description" = "Tarkastele lähialueesi karttaa, joka näyttää auringonnousun ja auringonlaskun ennustetun laadun.";
+"pro.outlookWidget.title" = "Tulevat ennusteet -pienoisohjelma";
+"pro.outlookWidget.description" = "Näe yhdellä vilkaisulla sijainnin auringonnousun ja auringonlaskun ennusteet jopa 4:lle seuraavalle päivälle suoraan aloitusnäytöltäsi.";
+"pro.weather.title" = "Sääolosuhteet";
+"pro.weather.description" = "Näe sääolosuhteet auringonnousun ja auringonlaskun ennusteiden ohella. Voit arvioida laatuennusteiden paikkansapitävyyttä näiden lisätietojen avulla.";
+"pro.accuracy.title" = "Lisää tarkkuutta";
+"pro.accuracy.description" = "Alpenglow käyttää likimääräistä sijaintia ennusteiden hakemiseen. Alpenglow Pron avulla sovellus käyttää tarkkaa sijaintiasi ennusteiden hakemiseen.";
+"pro.plusFeatures" = "Näiden muiden Alpenglow Plus -ominaisuuksien lisäksi...";
+"pro.forecastNotifications.disclaimer1" = "* Alpenglow ei koskaan tallenna sijaintiasi palvelimelle. Kaikki ilmoitukset ajoitetaan laitteellasi.";
+"pro.forecastNotifications.disclaimer2" = "* Joissakin tapauksissa iOS ei välttämättä herätä Alpenglowia taustalla, jotta sovellus voi ajoittaa ennustusilmoitukset. Akun heikko lataustaso, virransäästötila yms. voivat vaikuttaa siihen, salliiko iOS Alpenglow'n hakea ennusteet.";
+"pro.blurb" = "Maksu veloitetaan Apple ID -tililtäsi oston vahvistuksen yhteydessä. Tilaus uusitaan automaattisesti, ellei sitä peruuteta vähintään 24 tuntia ennen kuluvan kauden päättymistä. Tililtäsi veloitetaan uusiminen 24 tunnin sisällä ennen kuluvan kauden päättymistä. Voit hallita ja peruuttaa tilauksiasi siirtymällä tilisi asetuksiin App Storessa ostamisen jälkeen.\n\nVoit hallita ja peruuttaa tilauksiasi App Store -tilin asetuksissa ostamisen jälkeen.";
+
+// Tip
+"tipJar.navBar.title" = "Tippipurkki";
+"tipJar.description" = "Kiitos, että olet jo tukenut Alpenglow'ta.\n\nJos todella pidät sovelluksesta ja haluat tukea meitä vielä enemmän, kaikki lisätippi auttaa kattamaan kustannuksia ja jatkuvaa kehitystyötä.";
+
+// IAPS
+"iap.sweet" = "Makupalan kokoinen tippi";
+"iap.snack" = "Välipalan kokoinen tippi";
+"iap.coffee" = "Kahvitauon kokoinen tippi";
+"iap.lunch" = "Lounaan kokoinen tippi";
+"iap.dinner" = "Illallisen kokoinen tippi";
+"iap.errorRetrieving" = "Sovelluksen sisäisiä ostoksia ei voi noutaa";
+"iap.purchasing" = "Ostetaan";
+"iap.subscribe" = "Tilaa";
+"iap.restore" = "Palauta ostokset";
+"iap.restoring" = "Palautetaan";
+"iap.terms" = "Käyttöehdot";
+
+// Apple Watch
+"appleWatch.title" = "Alpenglow for Apple Watch";
+"appleWatch.description" = "Alpenglow is now available on Apple Watch, quickly access Sunrise & Sunset Forecasts as well as Sunrise, Sunset & Magic Hour Times for your current location.";
+"appleWatch.features.title" = "Also includes these features...";
+"appleWatch.timeComplications.title" = "Time Complications";
+"appleWatch.timeComplications.description" = "Add Sunrise, Sunset & Magic Hour Times to your favorite Watch Faces.";
+"appleWatch.outlookComplication.title" = "Outlook Complication";
+"appleWatch.outlookComplication.description" = "Glance the Sunrise & Sunset forecast for your location up-to 4 days into the future right on your Watch Face. Available with Alpengow Pro";
+"appleWatch.forecastComplications.title" = "Forecast Complications";
+"appleWatch.forecastComplications.description" = "View the Sunrise & Sunset Forecast right on your Apple Watch Face with Forecast Complications. Available with Alpengow Pro.";
+"appleWatch.shareComplications" = "Share your Apple Watch Face with Alpenglow and they may be featured in the app in the future.";
+"appleWatch.install" = "Install Alpenglow on your Apple Watch via the Watch app or via the App Store on your Apple Watch.";
+
+// Push Notifications
+"reminders.goldenHour.starting" = "Kultainen hetki alkaa nyt ...";
+"reminders.goldenHour.beginning" = "Kultainen hetki on nyt alkamassa...";
+"reminders.goldenHour.relative" = "Kultainen hetki on %@ klo %@.";
+"reminders.sunrise.rising" = "Aurinko nousee nyt. <Øß";
+"reminders.sunrise.relative" = "Auringonnousu on %@ klo %@. <Øß";
+"reminders.sunset.setting" = "Aurinko laskee nyt. <Øß";
+"reminders.sunset.relative" = "Auringonlasku on %@ klo %@. <Øß";
+
+// Forecast Notifications
+"forecastNotification.text" = "%@n ennustetaan olevan %@ (%@%%%) sijainnissa %@.";
+
+// Shares
+"share.fetching" = "Haetaan jakoa";
+"share.fetchFailed" = "Jaetun ennusteen noutaminen epäonnistui";
+"share.eventOccurred" = "Tämä %@ on jo tapahtunut.";
+"share.checkYours" = "Tarkista tämän päivän ennusteesi";
+
+// Forecast Upgrade CTA
+"forecastUpgradeCTA" = "Katso kauemmas tulevaisuuteen";
+
+// Widget Descriptions
+"widget.nextEvent.title" = "Seuraava tapahtuma";
+"widget.nextEvent.description" = "Lähtölaskenta seuraavaan auringonnousuun, auringonlaskuun ja taianomaisiin hetkiin.";
+"widget.times.title" = "Kellonajat";
+"widget.times.description" = "Auringonnousun, auringonlaskun ja kultaisten hetkien ajankohdat.";
+"widget.forecast.title" = "Laatuennusteet";
+"widget.forecast.description" = "Auringonnousun ja auringonlaskun laatuennusteet. Vaatii Alpenglow Pron.";
+"widget.outlook.title" = "Tulevat ennusteet";
+"widget.outlook.description" = "Auringonnousun ja auringonlaskun ennusteet jopa 4:lle päivälle. Vaatii Alpenglow Pron.";
+
+// Widget States
+"widget.requiresPro" = "Requires Alpenglow Pro";
+"widget.requiresLocation" = "Open app & ensure location is enabled.";
+"widget.editLocation" = "Edit Widget to Select a Location";
+
+// Watch
+"watch.viewing" = "Viewing";
+"watch.forecasts" = "Forecasts";
