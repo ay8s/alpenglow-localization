@@ -1,0 +1,316 @@
+/*
+  Localizabe.strings
+  Alpenglow
+
+  Created by Andrew Yates on 2/13/19.
+  Copyright © 2019 Andrew Yates. All rights reserved.
+*/
+
+// Common
+"Whoops" = "Oops";
+"Cancel" = "Cancelar";
+"Done" = "Concluir";
+"Close" = "Fechar";
+"Got it!" = "Entendido!";
+"Fetching" = "A Procurar";
+"Creating" = "A Criar";
+"Retry" = "Tentar Novamente";
+
+// Onboarding
+"onboarding.welcome.title" = "Bem Vindo";
+"onboarding.welcome.description" = "Nunca mais percas uma golden hour excelente.";
+"onboarding.welcome.getStarted" = "Vamos começar";
+
+"onboarding.location.title" = "Permissões de Localização";
+"onboarding.location.description" = "A tua localização é unicamente guardada no teu dispositivo.\n\nTambém é possível escolheres, manualmente, a localização para acederes à informação desse local.";
+"onboarding.location.allow" = "Ativar Permissões de Localização";
+"onboarding.location.skip" = "Selecionar Localização Manualmente";
+
+"onboarding.notifications.title" = "Ativar Notificações";
+"onboarding.notifications.description" = "Recebe lembretes para o nascer do sol, o pôr do sol e as horas douradas. Ativa as notificações para receberes estes lembretes!\n\nPodes alterar estas notificações em qualquer altura.";
+"onboarding.notifications.allow" = "Ativar Notificações";
+"onboarding.notifications.skip" = "Ativar Mais tarde";
+
+"onboarding.complete.title" = Está tudo pronto!";
+"onboarding.complete.description" = "Estás pronto/a para ver a tua previsão do nascer e pôr do sol! \n\nEsperemos que seja um bom dia!";
+"onboarding.complete.button" = "Vamos lá!";
+
+"onboarding.error.location." = "Não foi possível determinar a tua localização.";
+"onboarding.error.notifications" = "Parece que as tuas permissiões de notificações foram bloqueadas. Ativa-as nas Definições ou continua sem lembretes.";
+
+// Tabs
+"tabs.times" = "Horas";
+"tabs.outlook" = "Visão Geral";
+"tabs.map" = "Mapa";
+"tabs.notifications" = "Notificações";
+"tabs.settings" = "Configurações";
+
+// Times View
+"times.location.fetching" = "A Procurar";
+"times.location.change" = "Alterar";
+"times.location.changeLocation" = "Mudar Localização";
+"times.location.current" = "Localização Atual";
+"times.location.fetchingLocation" = "A Procurar Localização";
+"times.date.pick" = "Escolha uma Data";
+"times.date.previous" = "Data Anterior";
+"times.date.next" = "Data Seguinte";
+"times.date.today" = "Hoje";
+"times.date.tomorrow" = "Amanhã";
+"times.date.yesterday" = "Ontem";
+"times.date.datePicker" = "Ver tempo para...";
+"times.date.datePicker.today" = "Voltar para Hoje";
+"times.locationAlert.title" = "Mudar Localização";
+"times.locationAlert.description" = "Gostavas de escolher uma nova localização ou usar a tua atual?";
+"times.locationAlert.current" = "Usar Localização Atual";
+"times.locationAlert.pick" = "Escolher Localização";
+"times.noLocation.title" = "Localização Não Encontrada";
+"times.noLocation.settings" = "Abra as Definições para Ativar as Permissões";
+"times.noLocation.enable" = "Ativar Permissões de Localização";
+"times.noLocation.select" = "Selecionar Localização Manualmente";
+
+// Predications
+"prediction.report.title" = "Como parece?";
+"prediction.report.button" = "Submeter Relatório";
+"prediction.report.description" = "Ajuda-me a melhorar a Qualidade das Previsões do Nascer e Pôr do Sol com o envio de um relatório local.";
+"prediction.poor" = "Má";
+"prediction.fair" = "Mediana";
+"prediction.good" = "Boa";
+"prediction.great" = "Excelente";
+"prediction.error" = "Não foi possível recuperar a previsão";
+"prediction.share" = "Partilhar Previsão";
+"prediction.shareString" = "The %@ is forecasted to be %@ (%ld%%) in %@ at %@.";
+"prediction.shareVia" = "via";
+"events.blueHour" = "Hora Azul";
+"events.goldenHour" = "Hora Dourada";
+"events.sunrise" = "Nascer do Sol";
+"events.daytime" = "Dia";
+"events.sunset" = "Pôr do Sol";
+
+// Location
+"location.navBar.title" = "Procurar";
+"location.placeholder" = "Procurar por Localização";
+"location.results" = "Resultados";
+"location.noResults" = "Sem Resultados";
+"location.recent" = "Recentes";
+
+// Field Report
+"report.navBar.title" = "Relatório Local";
+"report.navBar.cancel" = "Cancelar";
+"report.navBar.submit" = "Submeter";
+"report.description" = "Podes ajudar a melhorar o Alpenglow, submentendo um relatório local.\n\nQuando submetes um relatório, nós iremos guardar a previsão, pontuação e localização aproximada.";
+"report.forecastedScore" = "Pontuação Prevista";
+"report.actualScore" = "Pontuação Atual";
+"report.changePhoto" = "Mudar Fotografia";
+"report.selectPhoto" = "Escolher Fotografia";
+"report.allowShare" = "Permitir que o Alpenglow partilhe fotografias";
+"report.instagramUsername" = "Nome de Utilizador do Instagram";
+"report.photo" = "Por favor, adiciona uma fotografia ao relatório local.";
+
+// Map
+"map.unlock" = "Desbloqueia o Mapa de Previsões\ncom Alpenglow Pro";
+"map.segment.nextSunrise" = "Próximo Nascer do Sol";
+"map.segment.nextSunset" = "Próximo Pôr do Sol";
+"map.about" = "Sobre";
+
+// Notifications
+"notifications.navBar.title" = "Notificações";
+"notifications.denied" = "Notificações estão Desligadas";
+"notifications.enable" = "Ativar lembretes (notificações)";
+"notifications.reminders.title" = "Lembretes";
+"notifications.reminders.morningGoldenHour" = "Hora Dourada (Manhã)";
+"notifications.reminders.sunrise" = "Nascer do Sol";
+"notifications.reminders.eveningGoldenHour" = "Hora Dourada (Fim de tarde)";
+"notifications.reminders.sunset" = "Pôr do Sol";
+"notifications.reminderOffset.title" = "Offset do Lembrete";
+"notifications.reminderOffset.0mins" = "À hora do evento";
+"notifications.reminderOffset.15mins" = "15 minutos antes";
+"notifications.reminderOffset.30mins" = "30 minutos antes";
+"notifications.reminderOffset.60mins" = "1 hora antes";
+"notifications.reminderOffset.120mins" = "2 horas antes";
+"notifications.reminderOffset.180mins" = "3 horas antes";
+"notifications.reminderOffset.360mins" = "6 horas antes";
+"notifications.reminderOffset.540mins" = "9 horas antes";
+"notifications.forecast.title" = "Lembretes de Previsão";
+"notifications.forecast.threshold" = "Limiar";
+"notifications.forecast.unlock" = "Desbloqueia Lembretes de Previsão\ncom Alpenglow Pro";
+"notifications.forecast.offset" = "Offset da Previsão";
+
+// Settings
+"settings.navBar.title" = "Configurações";
+"settings.support.title" = "Apoia o Alpenglow";
+"settings.support.plus" = "Alpenglow Plus";
+"settings.support.pro" = "Alpenglow Pro";
+"settings.support.tip" = "Enviar doação";
+"settings.support.rate" = "Avalia o Alpenglow na App Store";
+"settings.extras.title" = "Extras";
+"settings.extras.widgets" = "Widgets do Ecrã Inicial";
+"settings.extras.appleWatch" = "App do Apple Watch";
+"settings.appearance.title" = "Aparência";
+"settings.appearance.color" = "Personalizar Cores da App";
+"settings.appearance.icon" = "Mudar Ícone da App";
+"settings.appearance.widgets" = "Widgets do Ecrã Inicial";
+"settings.config.title" = "Configuração";
+"settings.config.deviceTimezone" = "Usar Timezone do Dispositivo";
+"settings.social.title" = "Social";
+"settings.social.reddit" = "Comunidade Alpenglow no Reddit";
+"settings.social.instagram" = "Seguir Alpenglow no Instagram";
+"settings.social.twitter" = "Seguir Alpenglow no Twitter";
+"settings.social.facebook" = "Seguir Alpenglow no Facebook";
+"settings.social.twitterPersonal" = "Seguir @ay8s no Twitter";
+"settings.translate.title" = "Traduzir";
+"settings.translate.help" = "Ajudar a traduzir o Alpenglow";
+"settings.feedback.title" = "Ajuda o Alpenglow a melhorar";
+"settings.feedback.send" = "Enviar Feedback";
+"settings.feedbackAlert.title" = "Feedback";
+"settings.feedbackAlert.description" = "Enviar um email para feedback@alpenglowapp.com e vamos tornar o Alpenglow ainda melhor.";
+"settings.privacyPolicy" = "Política de Privacidade";
+"settings.whatsNew" = "Novidades";
+"settings.merch" = "Merch da Alpenglow";
+
+// Widgets
+"settings.widgets.intro" = "To add a Widget to your Home Screen or Today View, go to your Home Screen or Today View, then tap and hold a Widget or an empty area until Icons/Widgets start to jiggle. Then tap the Add button and find Alpenglow within the list.";
+"settings.widgets.forecastWidget.title" = "Forecast Widget";
+"settings.widgets.forecastWidget.description" = "Shows the next Sunrise or Sunset Forecast for the selected location. Available with Alpenglow Pro";
+"settings.widgets.outlookWidget.title" = "Outlook Widget";
+"settings.widgets.outlookWidget.description" = "Shows the Sunrise and Sunset Forecasts for the selected location up-to 4 days ahead. Available with Alpenglow Pro.";
+"settings.widgets.timesWidget.title" = "Times Widget";
+"settings.widgets.nextEventWidget.title" = "Next Event Widget";
+
+// App Color
+"customColor.navBar.title" = "Primary App Color";
+"customColor.default" = "Default";
+"customColor.classic" = "Classic";
+"customColor.daytime" = "Daytime";
+"customColor.silhouette" = "Silhouette";
+"customColor.dawn" = "Dawn";
+
+// App Icons
+"appIcon.navBar.title" = "Change App Icon";
+"appIcon.default" = "Default";
+"appIcon.classic" = "Classic";
+"appIcon.daytime" = "Daytime";
+"appIcon.silhouette" = "Silhouette";
+"appIcon.dawn" = "Dawn";
+
+// Plus
+"plus.navBar.title" = "Unlock Alpenglow Plus";
+"plus.description" = "Alpenglow Plus unlocks additional features. Just leave a tip and it'll be unlocked for you as a thank you for your support.";
+"plus.upsell" = "You can unlock even more features with Alpenglow Pro, including forecast notifications.";
+"plus.future.title" = "See further into the future";
+"plus.future.description" = "With Alpenglow Plus you can see up to 4 days into the future (vs today & tomorrow).";
+"plus.outlook.title" = "Outlook";
+"plus.outlook.description" = "With the ability to see further into the future you'll also be able to check a glancable view of all available quality forecasts on the Outlook tab. Outlook Widget available with Alpenglow Pro.";
+"plus.accuracy.title" = "Increased Accuracy";
+"plus.accuracy.description" = "Forecasts will be fetched using a coordinate closer to your exact location.";
+"plus.elevation.title" = "Location Elevation";
+"plus.elevation.description" = "Location elevation will be retrieved and used to provide more accurate times for Sunrise, Sunset and Golden Hour times.";
+"plus.recent.title" = "Recent Locations";
+"plus.recent.description" = "You'll be able to easily access your 5 most recent locations within the Location Picker, allowing you to quickly check the forecast at your favorite spots.";
+"plus.customization.title" = "Customization";
+"plus.customization.description" = "Adjust the color scheme of the app as well as select from different versions of the App Icon.";
+"plus.support.title" = "Support an Indie Developer";
+"plus.support.description" = "Alpenglow is a passion project of a single developer who loves writing code and watching amazing sunsets. Your support allows me to not only keep Alpenglow running, but to keep making it better.";
+"plus.unlocked" = "You've unlocked Alpenglow Plus";
+"plus.pro" = "View Alpenglow Pro";
+
+// Pro
+"pro.navBar.title" = "Unlock Alpenglow Pro";
+"pro.legacyDescription" = "You're awesome! You already have unlocked Alpenglow Pro when you previously tipped, you have all of the features listed below.\n\nIf you want to be extra awesome and support Alpenglow further you can choose to Subscribe to a new Alpenglow Pro Subscription or Lifetime payment.";
+"pro.description" = "Alpenglow Pro unlocks everything in Alpenglow Plus, along with some extra features that incur ongoing server costs and additional SunsetWX usage.";
+"pro.save" = "Save %ld%%";
+"pro.onetime" = "One-time";
+"pro.continue" = "Continue";
+"pro.information.subscription" = "Includes %@ free trial.\nCancel before %@ and nothing will be billed.";
+"pro.information.subscriptionDatePlaceholder" = "end of trial";
+"pro.information.lifetime" = "A one-time purchase. No recurring subscription.\n";
+"pro.period.monthly" = "Monthly";
+"pro.period.yearly" = "Yearly";
+"pro.period.lifetime" = "Lifetime";
+"pro.forecastNotifications.title" = "Forecast Notifications *";
+"pro.forecastNotifications.description" = "We've all missed an amazing sunrise or sunset. Receive notifications when the forecast for your location is above a threshold set by you.";
+"pro.appleWatchComplications.title" = "Apple Watch Complications";
+"pro.appleWatchComplications.description" = "Add Forecast & Outlook Complications to your favorite Watch Face to see Sunrise and Sunset Forecasts right on your wrist.";
+"pro.forecastWidgets.title" = "Forecast Widgets";
+"pro.forecastWidgets.description" = "Unlock Forecast Widgets for your Home Screen. With the ability to display widgets for multiple locations.";
+"pro.map.title" = "Quality Map";
+"pro.map.description" = "View a map of your local area showing the forecasted quality for Sunrise and Sunset.";
+"pro.outlookWidget.title" = "Outlook Widget";
+"pro.outlookWidget.description" = "Glance the Sunrise & Sunset forecast for a location up-to 4 days into the future right on your Home Screen.";
+"pro.weather.title" = "Weather Conditions";
+"pro.weather.description" = "View weather conditions alongside Sunrise and Sunset Forecasts. Use these extra details to validate quality forecasts.";
+"pro.accuracy.title" = "More accuracy";
+"pro.accuracy.description" = "Alpenglow will use an approximate location to retrieve predictions. With Alpenglow Pro the app will use your exact location to retrieve predictions.";
+"pro.plusFeatures" = "As well as these Alpenglow Plus features...";
+"pro.forecastNotifications.disclaimer1" = "* Alpenglow never stores your location on a server. So all notifications are scheduled on your device.";
+"pro.forecastNotifications.disclaimer2" = "* In some cases iOS may not wake Alpenglow in the background to allow the app to schedule prediction notifications. Low battery, being in low power mode etc can all effect whether iOS allows Alpenglow to fetch the prediction.";
+"pro.blurb" = "Payment will be charged to your Apple ID account at the confirmation of purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.\n\nYou can manage and cancel your subscriptions within your App Store Account Settings after purchasing.";
+
+// Tip
+"tipJar.navBar.title" = "Tip Jar";
+"tipJar.description" = "Thanks for already supporting Alpenglow.\n\nIf you're really enjoying the app and would like to extend your support, any additional tips help cover costs and continued development.";
+
+// IAPS
+"iap.sweet" = "Sweet-Sized Tip";
+"iap.snack" = "Snack-Sized Tip";
+"iap.coffee" = "Coffee-Sized Tip";
+"iap.lunch" = "Lunch-Sized Tip";
+"iap.dinner" = "Dinner-Sized Tip";
+"iap.errorRetrieving" = "Unable to retrieve In-App Purchases";
+"iap.purchasing" = "Purchasing";
+"iap.subscribe" = "Subscribe to";
+"iap.restore" = "Restore Purchases";
+"iap.restoring" = "Restoring";
+"iap.terms" = "Terms of Use";
+
+// Apple Watch
+"appleWatch.title" = "Alpenglow for Apple Watch";
+"appleWatch.description" = "Alpenglow is now available on Apple Watch, quickly access Sunrise & Sunset Forecasts as well as Sunrise, Sunset & Magic Hour Times for your current location.";
+"appleWatch.features.title" = "Also includes these features...";
+"appleWatch.timeComplications.title" = "Time Complications";
+"appleWatch.timeComplications.description" = "Add Sunrise, Sunset & Magic Hour Times to your favorite Watch Faces.";
+"appleWatch.outlookComplication.title" = "Outlook Complication";
+"appleWatch.outlookComplication.description" = "Glance the Sunrise & Sunset forecast for your location up-to 4 days into the future right on your Watch Face. Available with Alpengow Pro";
+"appleWatch.forecastComplications.title" = "Forecast Complications";
+"appleWatch.forecastComplications.description" = "View the Sunrise & Sunset Forecast right on your Apple Watch Face with Forecast Complications. Available with Alpengow Pro.";
+"appleWatch.shareComplications" = "Share your Apple Watch Face with Alpenglow and they may be featured in the app in the future.";
+"appleWatch.install" = "Install Alpenglow on your Apple Watch via the Watch app or via the App Store on your Apple Watch.";
+
+// Push Notifications
+"reminders.goldenHour.starting" = "Golden hour is starting now...";
+"reminders.goldenHour.beginning" = "Golden hour is beginning now...";
+"reminders.goldenHour.relative" = "Golden hour is %@ at %@.";
+"reminders.sunrise.rising" = "The sun is rising now. 🌅";
+"reminders.sunrise.relative" = "Sunrise is %@ at %@. 🌅";
+"reminders.sunset.setting" = "The sun is setting now. 🌇";
+"reminders.sunset.relative" = "Sunset is %@ at %@. 🌇";
+
+// Forecast Notifications
+"forecastNotification.text" = "%@ is predicted to be %@ (%@%%%) in %@.";
+
+// Shares
+"share.fetching" = "Fetching Share";
+"share.fetchFailed" = "Failed to fetch shared forecast";
+"share.eventOccurred" = "This %@ has already happened.";
+"share.checkYours" = "Check your forecast for today";
+
+// Forecast Upgrade CTA
+"forecastUpgradeCTA" = "See further into the future";
+
+// Widget Descriptions
+"widget.nextEvent.title" = "Next Event";
+"widget.nextEvent.description" = "Countdown to the next Sunrise, Sunset and Magic Hours.";
+"widget.times.title" = "Times";
+"widget.times.description" = "Sunrise, Sunset and Golden Hour Times.";
+"widget.forecast.title" = "Quality Forecasts";
+"widget.forecast.description" = "Sunrise & Sunset Quality Forecasts. Requires Alpenglow Pro.";
+"widget.outlook.title" = "Forecast Outlook";
+"widget.outlook.description" = "Sunrise & Sunset Forecast for up-to 4 days. Requires Alpenglow Pro.";
+
+// Widget States
+"widget.requiresPro" = "Requires Alpenglow Pro";
+"widget.requiresLocation" = "Open app & ensure location is enabled.";
+"widget.editLocation" = "Edit Widget to Select a Location";
+
+// Watch
+"watch.viewing" = "Viewing";
+"watch.forecasts" = "Forecasts";
