@@ -3,33 +3,12 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-This is the community language repository for [Alpenglow](https://itunes.apple.com/app/id978589174).
+I'm trying out a new tool to manage localizations. Open the projects below to contribute to existing or new languages. 
 
-If you want to see Alpenglow in another language that isn't already available and have some git-fu, feel free to submit a pull request to the repository.
+[Alpenglow Localization Project](https://poeditor.com/join/project?hash=eLBkrcj1TV)
 
-If you don't know about git feel free to grab the [file here](https://github.com/ay8s/alpenglow-localization/blob/master/en.lproj/Localizable.strings) and send it over via the contact option on the [website](https://alpenglowapp.com).
+[Alpenglow App Store Localization Project](https://poeditor.com/join/project?hash=p7WR3BWJI2)
 
-
-### Structure
-Languages are structured in folders as such:
-
-`en.lproj/Localizable.strings`
-
-Where `en` is replaced by the [ISO 639-1 two-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), and the `Localizable.strings` file is structured as per the English (`en`) version.
-
-Please do not include any other files in a pull request.
-
-### Localization
-
-Strings are denoted as `"key"` = `"value"`, where the keys remain the same across all languages, and the values are localized. There must be a `;` at the end of each line.
-
-`"locationVC.title" = "Location";`
-
-Where you see a `%@` or `%ld` token, this denotes a value that is replaced at runtime. The corresponding localized value must keep the token in the right place to provide the same meaning as the English value.
-
-`"mainVC.predictions.inXHours" = "in %ld hours";`
-
-`"mainVC.predictions.inXMinutes" = "in %ld minutes";`
 
 ## Contributors ✨
 
